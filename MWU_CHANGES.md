@@ -1,5 +1,10 @@
 # Multi-word-unit / span-layer changes
 
+> Update after the LORIS approved-entry import: `spans` now also includes single-token rule matches as `type: "token_rule"`. The original MWU behavior remains; the span layer is now safe for richer unified frontend rendering.
+
+> Posodobitev po uvozu potrjenih LORIS vnosov: `spans` zdaj vključuje tudi enobesedne zadetke kot `type: "token_rule"`. Prvotno vedenje za večbesedne enote ostaja; plast `spans` je zdaj primerna za bogatejši poenoten frontend prikaz.
+
+
 ## Slovensko
 
 Ta različica lematizatorja uvaja eksplicitno plast za večbesedne enote oziroma razpone čez več tokenov. Prejšnja logika je pravila LORIS ujemala skoraj izključno token po tokenu, zato sprožilci z več besedami, na primer `z otroci`, `odpri lučke`, `okoristiti se` ali `compact disc`, niso bili zanesljivo dosegljivi. Večbesedni toponimi so bili obravnavani ločeno kot surovo iskanje po nizu, kar ni bilo dovolj povezano s tokeni.

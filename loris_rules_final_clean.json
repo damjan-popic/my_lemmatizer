@@ -1759,8 +1759,7 @@
         "Iscete": "patente",
         "SteMislili": "vozniško dovoljenje",
         "Npr": "Včeraj so policisti ustavili voznika brez vozniškega dovoljenja.",
-        "Vslo": "Slo patent = z zakonom zaščitena pravica do kake iznajdbe, izuma (ita 'brevetto').",
-        "Link": ""
+        "Vslo": "SLO patent = izum, iznajdba; listina, s katero vladar ali vladarica podeli plemiški naziv."
       }
     },
     {
@@ -1989,10 +1988,9 @@
       "payload": {
         "Izhodisce": "registrirati",
         "Iscete": "registrare",
-        "SteMislili": "snemati, posneti",
-        "Npr": "Ker potrebujemo zapisnike, moramo vse sestanke snemati.",
-        "Vslo": "Leksem registrirati pomeni vpisati v register, popisati, evidentirati.",
-        "Link": ""
+        "SteMislili": "snemati",
+        "Npr": "Ker potrebujemo zapisnik, bomo sestanke snemali z digitalnim snemalnikom.",
+        "Vslo": "SLO registrirati = vpisati v register, popisati, beležiti; zaznati, dojeti."
       }
     },
     {
@@ -2877,10 +2875,9 @@
       "payload": {
         "Izhodisce": "agonist",
         "Iscete": "agonista",
-        "SteMislili": "(tekmovalni, profesionalni, poklicni, vrhunski) športnik",
-        "Npr": "",
-        "Vslo": "Spojina, ki z vezavo na celične receptorje izzove enak biološki odziv kot vezava naravnega substrata.",
-        "Link": ""
+        "SteMislili": "profesionalni športnik",
+        "Npr": "Nikoli nisem razmišljal o tem, da bi postal profesionalni športnik.",
+        "Vslo": "Samostalnik agonist je uslovarjen (v SSKJ2), a izključno kot strokovni termin s področja kemije ( = snov, ki se veže na celični receptor in izzove enak biološki odziv kot snov, ki nastaja ali je prisotna v organizmu)."
       }
     },
     {
@@ -2897,10 +2894,9 @@
       "payload": {
         "Izhodisce": "agonističen",
         "Iscete": "agonistico",
-        "SteMislili": "tekmovalen, vrhunski",
-        "Npr": "Vrhunski šport je le zadnja stopnja tako imenovanega selekcijskega tekmovalnega športa.",
-        "Vslo": "Beseda ne obstaja. Podoben samostalnik moškega spola (agonist) pomeni 'spojina, ki z vezavo na celične receptorje izzove enak biološki odziv kot vezava naravnega substrata'.",
-        "Link": ""
+        "SteMislili": "tekmovalen",
+        "Npr": "Po koncu tekmovalne kariere se je začel zanimati za politiko. Z odbojko se ukvarja tekmovalno.",
+        "Vslo": "V SLO beseda agonističen ni niti uslovarjena niti izpričana v rabi."
       }
     },
     {
@@ -2917,10 +2913,9 @@
       "payload": {
         "Izhodisce": "agonistka",
         "Iscete": "agonista",
-        "SteMislili": "(tekmovalna, profesionalna, poklicna, vrhunska) športnica",
-        "Npr": "",
-        "Vslo": "Beseda ne obstaja. Podoben samostalnik moškega spola (agonist) pomeni 'spojina, ki z vezavo na celične receptorje izzove enak biološki odziv kot vezava naravnega substrata'.",
-        "Link": ""
+        "SteMislili": "profesionalna športnica",
+        "Npr": "Ker sem bila tudi sama profesionalna športnica, vem, da je ta šport zelo zahteven.",
+        "Vslo": "V SLO beseda agonistka ni niti uslovarjena niti izpričana v rabi."
       }
     },
     {
@@ -2997,10 +2992,8 @@
       "payload": {
         "Izhodisce": "anticipirati",
         "Iscete": "anticipare",
-        "SteMislili": "predvideti, narediti kaj vnaprej (npr. plačati, izplačati), premakniti na zgodbnejši datum, izplačati predujem (akontacijo, avans)",
-        "Npr": "",
-        "Vslo": "Glagol anticipirati se uporablja zlasti v pomenu 'vnaprej predvideti, prepostaviti, domnevati', vendar je tudi ta raba redka.",
-        "Link": ""
+        "SteMislili": "preložiti na zagodnejši datum, pospešiti, prehitevati; plačati vnaprej, plačati predujem, nakazati vnaprej",
+        "Vslo": "Glagol anticipirati je uslovarjen (v SSKJ2 in SP), a samo v pomenu predvideti, predpostaviti. Raba je redka."
       }
     },
     {
@@ -3018,9 +3011,7 @@
         "Izhodisce": "asikuracija",
         "Iscete": "assicurazione",
         "SteMislili": "zavarovanje, zavarovalnica",
-        "Npr": "Če potujete v države članice EU, boste potrebovali evropsko izkaznico zdravstvenega zavarovanja.",
-        "Vslo": "V standardnem slovenskem jeziku beseda ne obstaja. Uporablja se zgolj lokalno.",
-        "Link": ""
+        "Npr": "Če potujete v druge države članice EU, potrebujete evropsko izkaznico zdravstvenega zavarovanja."
       }
     },
     {
@@ -3237,10 +3228,9 @@
       "payload": {
         "Izhodisce": "evidentirati",
         "Iscete": "evidenziare",
-        "SteMislili": "označiti, določiti, izpostaviti, poudariti, podčrtati",
-        "Npr": "Pomembne dele besedila moramo posebej označiti. Županja je izpostavila potrebo po novih investicijah.",
-        "Vslo": "Leksem evidentirati pomeni spremljati in vpisovati podatke, zabeležiti.",
-        "Link": ""
+        "SteMislili": "izpostaviti, pridobiti (podatke), odkriti; označiti, etiketirati, kategorizirati",
+        "Npr": "Med vzroki za okužbo so izpostavili pomanjkanje higiene.",
+        "Vslo": "SLO evidentirati = odkriti in vpisati v register (seznam, evidenco); registrirati. ITA evidenziare in SLO evidentirati sta delna paronima (lažna prijatelja)."
       }
     },
     {
@@ -3257,10 +3247,9 @@
       "payload": {
         "Izhodisce": "file",
         "Iscete": "file",
-        "SteMislili": "datoteka, fajl",
-        "Npr": "Ko prejemnik odpre Wordovo datoteko, se odpiranje slike začne samodejno. Sodelavcu sem rekel, naj mi pošlje tisti fajl.",
-        "Vslo": "Angleški leksem file prevajamo s slo leksemom datoteka ali ga (zlasti v neformalnih položajih) podomačujemo (fajl). Glej tudi slide -> prosojnica, drsnica; slajd.",
-        "Link": ""
+        "SteMislili": "datoteka; fajl",
+        "Npr": "Ko prejemnik odpre Wordovo datoteko, se slika samodejno odpre.",
+        "Vslo": "V SLO terminologijo običajno prevajamo oz. podomačujemo, v ITA pa jo pogosto puščamo v izvirniku. SLO leksem fajl se uporablja zlasti v neformalnih okoličinah."
       }
     },
     {
@@ -3278,9 +3267,7 @@
         "Izhodisce": "honorarij",
         "Iscete": "onorario, compenso",
         "SteMislili": "honorar",
-        "Npr": "Na avtorske honorarje so uvedli dodatne davke. console onorario = honorarni konzul. giudice onorario = honorarni sodnik",
-        "Vslo": "",
-        "Link": ""
+        "Npr": "Vsi so se odpovedali običajnim honorarjem in igrali za drobiž."
       }
     },
     {
@@ -3357,10 +3344,9 @@
       "payload": {
         "Izhodisce": "konzulta",
         "Iscete": "consulta",
-        "SteMislili": "svet, (posvetovalni) odbor",
-        "Npr": "Sestal se je (posvetovalni) odbor za vprašanja slovenske skupnosti.",
-        "Vslo": "Leksem konzulta je v slovenskem standardnem jeziku zastarel in se uporablja redko.",
-        "Link": ""
+        "SteMislili": "svet; odbor, zbor",
+        "Npr": "Sklicali so pokrajinski dijaški svet.",
+        "Vslo": "Leksem konzulta je uslovarjen (v SSKJ2), vendar je raba redka in povezana zlasti z zgodovinskimi dogodki (npr. Člani konzulte so junija 1941 odpotovali v Rim)."
       }
     },
     {
@@ -3377,10 +3363,8 @@
       "payload": {
         "Izhodisce": "log",
         "Iscete": "logo",
-        "SteMislili": "logo/logotip",
-        "Npr": "Poiščite znamko ali logotip proizvajalca in serijsko številko.",
-        "Vslo": "Leksem log v standardnem slovenskem jeziku pomeni '(močviren) travnik ob vodi, navadno deloma porasel z drevesi'.",
-        "Link": ""
+        "SteMislili": "logo, logotip",
+        "Npr": "Poiščite znamko ali logotip proizvajalca in serijsko številko."
       }
     },
     {
@@ -3476,11 +3460,9 @@
       "priority": 100,
       "payload": {
         "Izhodisce": "nonprofit",
-        "Iscete": "nonprofit, no profit, non profit",
-        "SteMislili": "neprofiten",
-        "Npr": "Pri nas je kar nekaj neprofitnih društev, ki pomagajo ljudem v stiski.",
-        "Vslo": "/",
-        "Link": ""
+        "Iscete": "nonprofit, no profit, no-profit, non-profit",
+        "SteMislili": "neprofitno društvo, združenje; neprofitna organizacija",
+        "Npr": "Pri nas deluje več neprofitnih društev, ki pomagajo ljudem v stiski."
       }
     },
     {
@@ -3496,11 +3478,10 @@
       "priority": 100,
       "payload": {
         "Izhodisce": "odstavka",
-        "Iscete": "dimissioni",
-        "SteMislili": "odpoved",
-        "Npr": "Delavce naj bi silili v sporazumno odpoved delovnega razmerja.",
-        "Vslo": "Leksem odstavka v standardnem slovenskem jeziku ne obstaja.",
-        "Link": ""
+        "Iscete": "dimissione",
+        "SteMislili": "odpoved; odstop",
+        "Npr": "Direktorica je tajniku vročila uradno opozorilo pred odpovedjo delovnega razmerja. Delavec je dal odpoved. Trener je odstopil.",
+        "Vslo": "V SLO beseda odstavka ni uslovarjena, njena raba pa je izjemno redka."
       }
     },
     {
@@ -3676,11 +3657,9 @@
       "priority": 100,
       "payload": {
         "Izhodisce": "predno",
-        "Iscete": "/",
         "SteMislili": "preden",
-        "Npr": "Ljudje imajo lahko velika nihanja v ravni sladkorja, preden ugotovimo, katera terapija jim ustreza.",
-        "Vslo": "Predno se v slovenščini pojavlja izjemno redko, raba je omejena zlasti na leposlovje.",
-        "Link": ""
+        "Npr": "Raven sladkorja pri ljudeh lahko močno niha, preden ugotovimo, katera terapija jim ustreza.",
+        "Vslo": "Veznik predno je uslovarjen (v SSKJ2 in SP), a nas razlaga preusmerja k rabi nadrejene sopomenke preden. Na redko rabo kaže tudi korpus Gigafida: predno se uporablja približno 75-krat redkeje kot preden, pri čemer je raba je omejena zlasti na leposlovje in starejša besedila."
       }
     },
     {
@@ -3777,10 +3756,9 @@
       "payload": {
         "Izhodisce": "protagonist",
         "Iscete": "protagonista",
-        "SteMislili": "storilec, osumljeni, obtoženi, žrtev, udeleženec",
-        "Npr": "Ugotovljeno je bilo, da je storilec razbil prednje steklo osebnega avtomobila, pregledal notranjost in nato odšel neznano kam.",
-        "Vslo": "V ita ima 'protagonista' širši pomen in rabo – lahko je npr. storilec, vršilec nekega dejanja ali oseba, ki jo neki dogodek zadeva. V slo je protagonist 1. glavni junak literarnega dela, filma ali 2. pomembna osebnost kakega zgodovinskega dogodka (Komandant Stane je bil protagonist OF). Predvsem pri prekrških in kaznivih dejanjih nimamo protagonistov, ampak (domnevne) storilce in storilke (oz. osumljene, obtožene in obsojene osebe), udeležence in udeleženke (npr. prometne nesreče) ter žrtve ali preživele.",
-        "Link": ""
+        "SteMislili": "storilec, osumljeni, obtoženi, žrtev; udeleženec, sodelujoči, vpleteni; kdor je v središču dogajanja; glavni junak, protagonist",
+        "Npr": "Ugotovili so, da je storilec razbil prednje steklo osebnega avtomobila. V dogajanje je vpletenih več oseb. V središču dogajanja je bila mačka, ki je splezala na drevo.",
+        "Vslo": "ITA leksem protagonista je večpomenski. SLO protagonist = glavni junak literarnega dela, filma; pomembna osebnost kakega zgodovinskega dogodka. ITA protagonista in SLO protagonist sta delna paronima (lažna prijatelja)."
       }
     },
     {
@@ -3877,10 +3855,9 @@
       "payload": {
         "Izhodisce": "registrator",
         "Iscete": "registratore",
-        "SteMislili": "diktafon, snemalnik",
-        "Npr": "Ko so med nas postavili diktafon, je pogovor takoj zamrl.",
-        "Vslo": "Leksem registrator označuje kartonsko mapo za shranjevanje listin (ita 'raccoglitore'); pogosteje se uporabljajo leksemi fascikel, mapa.",
-        "Link": ""
+        "SteMislili": "diktafon",
+        "Npr": "Takoj ko so med nas postavili diktafon, je pogovor zamrl.",
+        "Vslo": "SLO registrator = naprava za zaznavanje ali spremljanje česa (npr. registrator sevanja); mapa oz. fascikel za shranjevanje, običajno evidenc ali seznamov (npr. nabralo se je veliko debelih registratorjev)."
       }
     },
     {
@@ -3977,10 +3954,9 @@
       "payload": {
         "Izhodisce": "slide",
         "Iscete": "slide",
-        "SteMislili": "prosojnica, drsnica",
-        "Npr": "V multimedijski pult je vgrajen predalnik, ki služi za shranjevanje prosojnic, diapozitivov ali filmov.",
-        "Vslo": "V ita se ohranja citatna oblika angleškega leksema (slide). V slovenščini leksem prevajamo (prosojnica, drsnica). V neformalnih okoliščinah podomačujemo zapis (slajd) – glej tudi file -> datoteka; fajl.",
-        "Link": ""
+        "SteMislili": "prosojnica",
+        "Npr": "Napredna orodja omogočajo hitro pripravo prosojnic. V multimedijski pult je vgrajen predalnik za shranjevanje prosojnic, diapozitivov ali filmov.",
+        "Vslo": "V SLO terminologijo običajno prevajamo oz. podomačujemo, v ITA pa jo pogosto puščamo v izvirniku."
       }
     },
     {
@@ -4036,11 +4012,9 @@
       "priority": 100,
       "payload": {
         "Izhodisce": "soklopnica",
-        "Iscete": "campagna di banco",
-        "SteMislili": "sošolka, ki sedi z nami",
-        "Npr": "",
-        "Vslo": "/",
-        "Link": ""
+        "Iscete": "compagna di banco",
+        "SteMislili": "sošolka, ki sedi v isti klopi oz. zraven",
+        "Vslo": "V SLO beseda soklopnica ne obstaja: podatkov o njeni rabi ni v nobenem referenčnem korpusu slovenskega jezika. Gre za besedotvorni kalk iz italijanščine; govorci in govorke, ki ne znajo italijansko, ne bodo razumeli pomena te besede"
       }
     },
     {
@@ -4057,10 +4031,8 @@
       "payload": {
         "Izhodisce": "soklopnik",
         "Iscete": "compagno di banco",
-        "SteMislili": "sošolec, ki sedi z nami",
-        "Npr": "",
-        "Vslo": "/",
-        "Link": ""
+        "SteMislili": "sošolec, ki sedi v isti klopi oz. zraven",
+        "Vslo": "V SLO beseda soklopnik ne obstaja: podatkov o njeni rabi ni v nobenem referenčnem korpusu slovenskega jezika. Gre za besedotvorni kalk iz italijanščine; govorci in govorke, ki ne znajo italijansko, ne bodo razumeli pomena te besede."
       }
     },
     {
@@ -4079,8 +4051,7 @@
         "Iscete": "allegato",
         "SteMislili": "priponka, pripetek",
         "Npr": "V priponki pošiljam domačo nalogo.",
-        "Vslo": "sponka = priprava za spenjanje, navadno papirja",
-        "Link": ""
+        "Vslo": "SLO sponka = manjša priprava za spenjanje, navadno papirja."
       }
     },
     {
@@ -4137,10 +4108,9 @@
       "payload": {
         "Izhodisce": "teza",
         "Iscete": "tesi di laurea",
-        "SteMislili": "diplomska naloga",
-        "Npr": "",
-        "Vslo": "",
-        "Link": ""
+        "SteMislili": "diplomska naloga, magistrska naloga",
+        "Npr": "Študentka je uspešno zagovarjala diplomsko nalogo.",
+        "Vslo": "SLO teza = trditev, mnenje, stališče. ITA leksem tesi in SLO leksem teza sta delna paronima (lažna prijatelja)."
       }
     },
     {
@@ -4156,11 +4126,10 @@
       "priority": 100,
       "payload": {
         "Izhodisce": "tišina",
-        "Iscete": "silenzio elettorale",
-        "SteMislili": "volilni molk",
-        "Npr": "V času volilnega molka agitiranje ni dovoljeno.",
-        "Vslo": "Tišina označuje splošno stanje brez hrupa ali zvoka, molk pa izraža stanje, ko se ne govori.",
-        "Link": ""
+        "Iscete": "silenzio",
+        "SteMislili": "tišina / molk",
+        "Npr": "V gozd zahajam, ker mi je všeč tišina. Za kršitev določbe o volilnem molku je predvidena kazen.",
+        "Vslo": "SLO tišina = splošno stanje brez hrupa ali zvoka; SLO molk = stanje, v katerem ljudje ne govorijo oz. ne izražajo svojega mnenja."
       }
     },
     {
@@ -4197,10 +4166,9 @@
       "payload": {
         "Izhodisce": "upravitelj",
         "Iscete": "amministratore",
-        "SteMislili": "član upravnega odbora; upravnik, upravljavec",
-        "Npr": "",
-        "Vslo": "",
-        "Link": ""
+        "SteMislili": "član uprave, član upravnega odbora; svetnik; skrbnik; upravnik; direktor; najemnik",
+        "Npr": "Še zelo mlad je postal član upravnega odbora banke. Trije občinski svetniki so glasovali proti resoluciji. Najemnik gostinskega lokala je kupil novo opremo.",
+        "Vslo": "ITA leksem amministratore je večpomenski. V SLO se prevaja na različne načine, odvisno od konteksta. SLO leksem upravitelj se najpogosteje uporablja v kolokacijah likvidacijski, stečajni, prisilni. Za člane odborov in svetov ter najemnike lokalov leksema upravitelj ne uporabljamo."
       }
     },
     {
@@ -4217,10 +4185,9 @@
       "payload": {
         "Izhodisce": "upraviteljica",
         "Iscete": "amministratrice",
-        "SteMislili": "članica upravnega odbora; upravnica, upravljavka",
-        "Npr": "",
-        "Vslo": "",
-        "Link": ""
+        "SteMislili": "članica uprave, članica upravnega odbora; svetnica; skrbnica; upravnica; direktorica; najemnica",
+        "Npr": "Še zelo mlada je postala članica upravnega odbora banke. Tri občinske svetnice so glasovale proti resoluciji. Najemnica gostinskega lokala je kupila novo opremo.",
+        "Vslo": "ITA leksem amministratrice je večpomenski. V SLO se prevaja na različne načine, odvisno od konteksta. SLO leksem upraviteljica se najpogosteje uporablja v kolokacijah likvidacijska, stečajna, prisilna. Za članice odborov in svetov ter najemnice lokalov leksema upraviteljica ne uporabljamo."
       }
     },
     {
@@ -4715,7 +4682,6 @@
       "trigger": {
         "type": "surface_name",
         "forms": [
-          "Gropada",
           "Gropada"
         ]
       },
@@ -5058,7 +5024,6 @@
       "trigger": {
         "type": "surface_name",
         "forms": [
-          "Pesek",
           "Pesek"
         ]
       },
@@ -28608,6 +28573,1196 @@
         "Izhodisce": "zapreti luč",
         "Iscete": "prižgati luč",
         "SteMislili": "prižgati luč"
+      }
+    },
+    {
+      "id": "paronym_zapreti_luč",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "zapreti luč"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "zapreti luč",
+        "SteMislili": "ugasniti luč",
+        "Npr": "Prosim, ugasni luč, ko odhajaš iz sobe."
+      }
+    },
+    {
+      "id": "paronym_odpreti_luč",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "odpreti luč"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "odpreti luč",
+        "SteMislili": "prižgati luč",
+        "Npr": "Ko se je stemnilo, je prižgal luč."
+      }
+    },
+    {
+      "id": "paronym_na_štiri_roke",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "na štiri roke"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "na štiri roke",
+        "Iscete": "a quattro mani",
+        "SteMislili": "štiriročno; dva, dve / v dvoje / oba, obe",
+        "Npr": "Na koncertu sta pianistki igrali štiriročno. Pravilnik sta napisali dve članici društva.",
+        "Vslo": "SLO leksem štiriročno se uporablja skoraj izključno v glasbi, zlasti pri igranju klavirja."
+      }
+    },
+    {
+      "id": "paronym_se_pustiti_it",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "se pustiti it"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "se pustiti it",
+        "Iscete": "lasciarsi andare",
+        "SteMislili": "zanemariti se; sprostiti se",
+        "Npr": "Ne smeš se zanemariti, poskrbi za svoje zdravje. Po napornem tednu se želim sprostiti."
+      }
+    },
+    {
+      "id": "paronym_privatist",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "privatist"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "privatist",
+        "Iscete": "privatista",
+        "SteMislili": "zunanji kandidat / maturitetni tečajnik (= posameznik, ki ne obiskuje pouka, temveč opravlja zgolj zaključne preizkuse znanja)",
+        "Npr": "Vsi maturitetni tečajniki so uspešno opravili splošno maturo. / Ker je imel težave z alkoholom, je gimnazijo pustil in maturo opravljal pozneje kot zunanji kandidat.",
+        "Vslo": "Samostalnik privatist je uslovarjen (v SSKJ2 in SP), vendar se je uporabljal predvsem v preteklosti in je danes redko v rabi."
+      }
+    },
+    {
+      "id": "paronym_privatiska",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "privatiska"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "privatiska",
+        "Iscete": "privatista",
+        "SteMislili": "zunanja kandidatka / maturitetna tečajnica (= posameznica, ki ne obiskuje pouka, temveč opravlja zgolj zaključne preizkuse znanja)",
+        "Npr": "Vse maturitetne tečajnice so uspešno opravile splošno maturo. / Ker je imela težave z alkoholom, je gimnazijo pustila in maturo opravljala pozneje kot zunanja kandidatka.",
+        "Vslo": "Samostalnik privatistka je uslovarjen (v SSKJ2 in SP), vendar se je uporabljal predvsem v preteklosti in je danes redko v rabi."
+      }
+    },
+    {
+      "id": "paronym_zmrzniti_se",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "zmrzniti se"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "zmrzniti se",
+        "Iscete": "congelarsi",
+        "SteMislili": "zmrzniti",
+        "Npr": "Na koncu so zmagali vsi, ki so imeli kar koli opraviti s tekmovanjem ali pa nasploh z ledenim festivalom: sploh gledalci, ker so vztrajali do konca in niso zmrznili.",
+        "Vslo": "Glagol zmrzniti v SLO ni povratni."
+      }
+    },
+    {
+      "id": "paronym_stati_na_sredi_med",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "stati na sredi med",
+          "stati sredi med"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "stati (na) sredi med (dvema predmetoma)",
+        "Iscete": "stare / trovarsi / essere in mezzo (a due oggetti)",
+        "SteMislili": "stati / biti (med dvema predmetoma)",
+        "Npr": "Vaza je med omaro in vrati.",
+        "Vslo": "SLO besedna zveza stati (na) sredi (med dvema predmetoma) se uporablja izključno v lokalnem okolju, verjetno kot kalk iz italijanščine. Govorci in govorke, ki ne znajo italijansko, ne bodo razumeli pomena te besedne zveze."
+      }
+    },
+    {
+      "id": "paronym_plačevalka",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "plačevalka"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "plačevalka",
+        "Iscete": "contribuente",
+        "SteMislili": "plačnica; davkoplačevalka",
+        "Npr": "Davkoplačevalke od vlade pričakujejo transparentnost.",
+        "Vslo": "Samostalnik plačevalka je uslovarjen (v SSKJ2 in SP), a se rabi redko. Veliko pogostejša je sopomenka plačnica. Oba samostalnika poimenujeta osebo ženskega spola, ki plačuje. V ITA se contribuente nanaša specifično na plačevanje davkov in prispevkov; v tem pomenu se v SLO rabi samostalnik davkoplačevalka."
+      }
+    },
+    {
+      "id": "paronym_aretacija",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "aretacija"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "aretacija",
+        "Iscete": "arresto",
+        "SteMislili": "prijetje / odvzem prostosti",
+        "Npr": "Končno je prišlo do prijetja osumljenca. V postopku prijetja in pridržanja državljanke je bilo storjenih več napak. Proti osebi je bil izdan nalog za odvzem prostosti.",
+        "Vslo": "Samostalnik aretacija je uslovarjen (v SSKJ2 in SP), vendar se v strokovnih besedilih (npr. zakonih, pravilnikih, sklepih ...) uporabjata zlasti termina prijetje in odvzem prostosti."
+      }
+    },
+    {
+      "id": "paronym_več",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "več"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "več",
+        "Iscete": "più",
+        "SteMislili": "bolj, več",
+        "Npr": "Ta rešitev je bolj premišljena od prejšnje. Letos smo pobrali več grozdja.",
+        "Vslo": "ITA leksem più se v SLO prevaja z bolj, kadar izraža stopnjo nečesa, in z več, kadar izraža količino nečesa."
+      }
+    },
+    {
+      "id": "paronym_največ",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "največ"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "največ",
+        "Iscete": "più",
+        "SteMislili": "najbolj, največ",
+        "Npr": "Tega smo najbolj vesele. V to smo vložile največ truda.",
+        "Vslo": "ITA leksem più se v SLO prevaja z (naj)bolj, kadar izraža stopnjo nečesa, in z (naj)več, kadar izraža količino nečesa."
+      }
+    },
+    {
+      "id": "paronym_za_dopust",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "za dopust"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "za dopust",
+        "Iscete": "per ferie",
+        "SteMislili": "zaradi dopusta",
+        "Npr": "Pisarna bo zaradi dopusta zaprta.",
+        "Vslo": "SLO besedna zveza za dopust je po vsej verjetnosti kalk iz italijanščine. Običajnejša kolokacija je zaradi dopusta."
+      }
+    },
+    {
+      "id": "paronym_intestiran_papir",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "intestiran papir"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "intestiran papir",
+        "Iscete": "carta intestata",
+        "SteMislili": "papir podjetja/ustanove; papir z logotipom",
+        "Vslo": "V SLO beseda intestiran ne obstaja: podatkov o njeni rabi ni v nobenem referenčnem korpusu slovenskega jezika. Gre za prenos iz italijanščine; govorci in govorke, ki ne znajo italijansko, ne bodo razumeli pomena te besede."
+      }
+    },
+    {
+      "id": "paronym_hospitacija",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "hospitacija"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "hospitacija",
+        "Iscete": "ospedalizzazione",
+        "SteMislili": "hospitalizacija",
+        "Npr": "Zaradi alkohola je bilo v slovenskih bolnišnicah skoraj štiri tisoč hospitalizacij, ki so skupaj trajale skoraj 93.000 dni.",
+        "Vslo": "SLO hospitacija = prisostvovanje pouku za pridobivanje pedagoških izkušenj (npr. pripravniki so morali pred izpitom opraviti hospitacije)."
+      }
+    },
+    {
+      "id": "paronym_abuzivno_poslopje",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "abuzivno poslopje"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "abuzivno poslopje",
+        "Iscete": "edificio abusivo",
+        "SteMislili": "poslopje, stavba, zgradba, nepremičnina brez gradbenega dovoljenja; črna gradnja",
+        "Npr": "Poslopje nima gradbenega dovoljenja. Stavba je še vedno brez gradbenega dovoljenja. Rušili bodo črne gradnje.",
+        "Vslo": "Pridevnik abuziven je uslovarjen (v SSKJ2), vendar raba v korpusu pisne standardne slovenščine Gigafida ni izpričana."
+      }
+    },
+    {
+      "id": "paronym_davčna_koda",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "davčna koda"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "davčna koda",
+        "Iscete": "codice fiscale",
+        "SteMislili": "davčna številka",
+        "Npr": "Postopek odobritve je zelo preprost: potrebna sta le osebni dokument in davčna številka prejemnika."
+      }
+    },
+    {
+      "id": "paronym_reklamacija",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "reklamacija"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "reklamacija",
+        "Iscete": "reclamo",
+        "SteMislili": "pritožba",
+        "Vslo": "SLO leksem reklamacija se uporablja samo, kadar se blago ali storitev ob nakupu zavrne zaradi napake. Leksem pritožba je nadpomenka."
+      }
+    },
+    {
+      "id": "paronym_oproščati_se",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "oproščati se"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "oproščati se",
+        "Iscete": "scusarsi",
+        "SteMislili": "opravičiti se, opravičevati se",
+        "Npr": "Napako so hitro popravili in se opravičili.",
+        "Vslo": "Glagol oproščati se je uslovarjen (v SSKJ2 in SP), a je njegova raba redka in nekoliko arhaična. Priporočljiva in običajnejša je raba glagola opravičiti se."
+      }
+    },
+    {
+      "id": "paronym_v_vidiku",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "v vidiku"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "v vidiku",
+        "Iscete": "in previsione di / in prospettiva",
+        "SteMislili": "pred, za, med pripravami na, v pričakovanju na",
+        "Npr": "Pred snežnim metežem so ceste posipali s soljo. Ker pričakujejo porast zanimanja, so napolnili zaloge.",
+        "Vslo": "SLO besedna zveza v vidiku je zelo redka, stilno zaznamovana in zastarela."
+      }
+    },
+    {
+      "id": "paronym_v_sklopu",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "v sklopu"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "v sklopu",
+        "Iscete": "in ambito / nell'ambito di",
+        "SteMislili": "v, na, pri, med; na področju, v sklopu",
+        "Npr": "Temo sem obravnavala v svoji raziskavi. V zdravstvu so pogosti primeri nadobremenjenosti kadra. Platformo smo razvili v tretjem sklopu projekta.",
+        "Vslo": "SLO besedna zveza v sklopu se uporablja izključno, kadar želimo poudariti, da je neka dejavnost razdeljena na sklope."
+      }
+    },
+    {
+      "id": "paronym_v_okviru",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "v okviru"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "v okviru",
+        "Iscete": "in ambito / nell'ambito di",
+        "SteMislili": "v, na, pri, med; na področju, v okviru",
+        "Npr": "Temo sem obravnavala v svoji raziskavi. V zdravstvu so pogosti primeri nadobremenjenosti kadra. Stališče je treba uveljaviti v okviru evropskih sporazumov.",
+        "Vslo": "SLO besedna zveza v okviru se uporablja izključno, kadar želimo poudariti, da se neka dejavnost izvaja s specifičnimi omejitvami."
+      }
+    },
+    {
+      "id": "paronym_samomoriti_se",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "samomoriti se",
+          "samomoriti"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "samomoriti (se)",
+        "Iscete": "suicidarsi",
+        "SteMislili": "narediti samomor, storiti samomor, vzeti si življenje",
+        "Npr": "Gospa je storila samomor. Znanec si je vzel življenje.",
+        "Vslo": "V SLO glagol samomoriti (se) ni uslovarjen, raba pa ni izpričana. Verjetno gre za besedotvorni kalk ITA glagola suicidarsi."
+      }
+    },
+    {
+      "id": "paronym_monitorirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "monitorirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "monitorirati",
+        "Iscete": "monitorare",
+        "SteMislili": "(stalno in načrtno) spremljati, nadzirati, opazovati; izvajati monitoring",
+        "Npr": "Vlada redno spremlja rast cen. Porast okužb moramo nadzirati.",
+        "Vslo": "V SLO glagol monitorirati ni uslovarjen, raba pa je izjemno redka."
+      }
+    },
+    {
+      "id": "paronym_mimetizirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "mimetizirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "mimetizirati",
+        "Iscete": "mimetizzare",
+        "SteMislili": "zamaskirati, zakriti, prikriti, prekriti; kamuflirati",
+        "Npr": "Izkopali so jamo in jo zakrili. Nekateri znajo zamaskirati jezo z navidezno ravnodušnostjo. Vojaki so postojanke kamuflirali z vejami in listjem. Enota ima maskirne uniforme.",
+        "Vslo": "V SLO glagol mimetizirati ni uslovarjen, raba pa ni izpričana. V biologiji se uporablja termin mimikrija, v umetnosti tudi mimezis. V vojaški terminologiji obstaja samostalnik kamuflaža, ki je prešel v splošni pogovorni jezik."
+      }
+    },
+    {
+      "id": "paronym_recepirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "recepirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "recepirati",
+        "Iscete": "recepire",
+        "SteMislili": "sprejemati, usvojiti, prevzeti, prenesti, recipirati",
+        "Npr": "Države članice morajo obvezno prenesti direktive v nacionalno zakonodajo. Nekdanje kolonije so prevzele britansko pravo.",
+        "Vslo": "V SLO glagol recepirati ni uslovarjen, njegova raba pa ni izpričana. Uslovarjen je glagol recipirati (v SSKJ2 in SP), a je njegova raba redka."
+      }
+    },
+    {
+      "id": "paronym_predvpisati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "predvpisati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "predvpisati",
+        "Iscete": "preiscrivere",
+        "SteMislili": "prijaviti (se) k vpisu; oddati, poslati, izpolniti vlogo za predvpis; oddati, poslati, izpolniti (pred)prijavo k vpisu; predhodno (se) vpisati",
+        "Npr": "Januar je mesec za predvpis na šolo. Študentka se je prijavila k vpisu. Dijak je oddal predprijavo k vpisu.",
+        "Vslo": "V SLO glagol predvpisati (se) ni uslovarjen, raba pa ni izpričana. Uslovarjen je samostalnik predvpis (v SSKJ2 in SP), izpričana je tudi njegova raba."
+      }
+    },
+    {
+      "id": "paronym_refinansirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "refinansirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "refinansirati",
+        "Iscete": "rifinanziare",
+        "SteMislili": "refinancirati",
+        "Npr": "Dogovoriti se moramo z dobavitelji, zmanjšati prodajno mrežo in refinancirati dolgoročni kredit."
+      }
+    },
+    {
+      "id": "paronym_sponzorizirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "sponzorizirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "sponzorizirati",
+        "Iscete": "sponsorizzare",
+        "SteMislili": "sponzorirati",
+        "Npr": "Podjetja so pripravljena sponzorirati nekatere prireditve."
+      }
+    },
+    {
+      "id": "paronym_hipotizirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "hipotizirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "hipotizirati",
+        "Iscete": "ipotizzare",
+        "SteMislili": "domnevati, predvidevati, misliti, ugibati; izhajati iz predpostavke; postaviti hipotezo",
+        "Npr": "Domnevam, da je tvoja poteza slaba. Predvidevamo, da se bodo razmere zaostrile.",
+        "Vslo": "V SLO glagol hipotizirati ni uslovarjen, raba pa ni izpričana."
+      }
+    },
+    {
+      "id": "paronym_sekvestrirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "sekvestrirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "sekvestrirati",
+        "Iscete": "sequestrare",
+        "SteMislili": "zaseči, ugrabiti, zapleniti",
+        "Npr": "Na meji je policija zasegla mamila. Zaplenili so jim vse nepremičnine. Tolpa je ugrabila otroka.",
+        "Vslo": "Glagol sekvestrirati je uslovarjen (v SSKJ2 in SP), a je njegova raba izjemno redka."
+      }
+    },
+    {
+      "id": "paronym_getizirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "getizirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "getizirati",
+        "Iscete": "ghettizzare",
+        "SteMislili": "getoizirati; marginalizirati; izločiti, izključiti; osamiti; segregirati; izobčiti; izriniti, potisniti v ozadje, potisniti na rob",
+        "Npr": "Kritiki očitajo oblastem, da želijo getoizirati revnejše prebivalce. Nekatere družbene skupine so še danes marginalizirane. Spolne delavce in delavke pogosto segregirajo v določene predele mest.",
+        "Vslo": "V SLO glagol getizirati ni uslovarjen, raba pa ni izpričana. Uslovarjen je glagol getoizirati (v SSKJ2), vendar je njegova raba redka: pogosto ga nadomeščamo s sopomenkami."
+      }
+    },
+    {
+      "id": "paronym_penalizirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "penalizirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "penalizirati",
+        "Iscete": "penalizzare",
+        "SteMislili": "kaznovati, oškodovati, prikrajšati",
+        "Npr": "S takim ravnanjem so oškodovali delavce.",
+        "Vslo": "V SLO glagol penalizirati ni uslovarjen, raba pa je izjemno redka."
+      }
+    },
+    {
+      "id": "paronym_provati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "provati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "provati",
+        "Iscete": "provare",
+        "SteMislili": "poskusiti, pomeriti; preizkusiti; probati",
+        "Npr": "Preizkusite vijak. Pomerila sem čevlje.",
+        "Vslo": "V SLO glagol provati ni uslovarjen, raba pa je izjemno redka in specifična: najdemo ga v narečnih citatih v standardnih besedilih. Glagol probati je pogovorni, uporabljamo ga v neformalnih govornih položajih."
+      }
+    },
+    {
+      "id": "paronym_iznesti",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "iznesti"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "iznesti",
+        "Iscete": "esporre",
+        "SteMislili": "izraziti, podati mnenje; povedati, prikazati, predstaviti, orisati",
+        "Npr": "Predstavnice ministrstva so predstavile predlog novega zakona.",
+        "Vslo": "Glagol iznesti v pomenu odkriti, prikazati je uslovarjen (v SSKJ2), a je njegova raba redka."
+      }
+    },
+    {
+      "id": "paronym_delegitimirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "delegitimirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "delegitimirati",
+        "Iscete": "delegittimare",
+        "SteMislili": "odvzeti legitimnost, avtoriteto; spodkopavati avtoriteto; postaviti pod vprašaj avtoriteto",
+        "Vslo": "V SLO glagol delegitimirati ni uslovarjen, raba pa je redka."
+      }
+    },
+    {
+      "id": "paronym_redimenzionirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "redimenzionirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "redimenzionirati",
+        "Iscete": "ridimensionare",
+        "SteMislili": "zmanjšati, skrčiti, omejiti; reducirati; okrniti; preoblikovati, preusmeriti, dodati novo dimenzijo",
+        "Vslo": "V SLO glagol redimenzionirati ni uslovarjen, raba pa je izjemno redka."
+      }
+    },
+    {
+      "id": "paronym_ošemiti_se",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "ošemiti se",
+          "ošemiti"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "ošemiti (se)",
+        "SteMislili": "našemiti (se)",
+        "Npr": "Našemili smo se za ples. Našemil se je v strašilo.",
+        "Vslo": "Glagol ošemiti je uslovarjen (v SSKJ2), vendar je raba izjemno redka in skoraj izključno lokalna."
+      }
+    },
+    {
+      "id": "paronym_publicizirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "publicizirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "publicizirati",
+        "Iscete": "pubblicizzare",
+        "SteMislili": "oglaševati, reklamirati, promovirati",
+        "Npr": "Tovarne oglašujejo po športnih dvoranah. Promovirajo zdravo prehrano.",
+        "Vslo": "V SLO glagol publicizirati ni uslovarjen, raba pa je izjemno redka in izključno lokalna."
+      }
+    },
+    {
+      "id": "paronym_delokalizirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "delokalizirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "delokalizirati",
+        "Iscete": "delocalizzare",
+        "SteMislili": "premestiti, preseliti proizvodnjo",
+        "Vslo": "V SLO glagol delokalizirati ni uslovarjen, raba pa je izjemno redka."
+      }
+    },
+    {
+      "id": "paronym_katalogirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "katalogirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "katalogirati",
+        "Iscete": "catalogare",
+        "SteMislili": "katalogizirati, izdelati/sestavljati katalog, vstaviti v katalog",
+        "Npr": "katalogizirati svetovno literaturo / katalogizirati knjige",
+        "Vslo": "V SLO glagol katalogirati ni uslovarjen, raba pa je izjemno redka in izključno lokalna."
+      }
+    },
+    {
+      "id": "paronym_sofinansirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "sofinansirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "sofinansirati",
+        "Iscete": "cofinanziare; co-finanziare",
+        "SteMislili": "sofinancirati",
+        "Vslo": "Glagol sofinansirati je omenjen samo v Slovenskem pravopisu 2001, in sicer kot neustrezen zapis glagola sofinancirati. Raba oblike sofinansirati je redka."
+      }
+    },
+    {
+      "id": "paronym_kofinancirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "kofinancirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "kofinancirati",
+        "Iscete": "cofinanziare; co-finanziare",
+        "SteMislili": "sofinancirati",
+        "Vslo": "V SLO glagol kofinancirati ni uslovarjen, raba pa je izjemno redka."
+      }
+    },
+    {
+      "id": "paronym_kolavdirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "kolavdirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "kolavdirati",
+        "Iscete": "collaudare",
+        "SteMislili": "preizkusiti, preveriti, pregledati",
+        "Npr": "Ta način dela je bil že zdavnaj preizkušen. Držimo se preverjenih postopkov.",
+        "Vslo": "Glagol kolavdirati je uslovarjen (v SSKJ2 in SP), vendar se uporablja izključno v strokovnih besedilih s področja gradbeništva in strojništva. V drugih primerih se uporabljajo glagoli preizkusiti, preveriti, pregledati."
+      }
+    },
+    {
+      "id": "paronym_samokandidirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "samokandidirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "samokandidirati",
+        "Iscete": "autocandidarsi",
+        "SteMislili": "kandidirati, vložiti kandidaturo; javiti se, ponuditi se, priglasiti se",
+        "Npr": "Za to delo se je kar sama ponudila. Sam je vložil kandidaturo za predsednika.",
+        "Vslo": "V SLO glagol samokandidirati ni uslovarjen, raba pa je izjemno redka."
+      }
+    },
+    {
+      "id": "paronym_konfinirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "konfinirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "konfinirati",
+        "Iscete": "confinare",
+        "SteMislili": "poslati v konfinacijo, obsoditi na konfinacijo, konfinirati; pregnati; zamejiti, zajeziti, omejiti; izločiti",
+        "Npr": "Okužbo je treba zamejiti. Aktiviste so poslali v konfinacijo.",
+        "Vslo": "Glagol konfinirati je uslovarjen (v SSKJ2 in SP), raba pa je redka in specifična. Za pomene, ki niso povezani s prisilnim bivanjem v tujem kraju, uporabljamo druge sopomenke."
+      }
+    },
+    {
+      "id": "paronym_do_sedaj",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "do sedaj"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "do sedaj",
+        "Iscete": "fino a ora",
+        "SteMislili": "doslej"
+      }
+    },
+    {
+      "id": "paronym_kriminalnost",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "kriminalnost"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "kriminalnost",
+        "Iscete": "criminalità",
+        "SteMislili": "kriminal, kriminaliteta",
+        "Vslo": "Samostalnik kriminalnost je uslovarjen (v SSKJ2), vendar pomeni nagnjenost h kriminalu, raba pa je redka. Kadar gre za kaznivo dejanje ali skupek kaznivih dejanj, se uporabljata samostalnika kriminal in kriminaliteta."
+      }
+    },
+    {
+      "id": "paronym_zgubljen",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "zgubljen"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "zgubljen",
+        "Iscete": "perso",
+        "SteMislili": "izgubljen",
+        "Vslo": "Deležniški pridevnik zgubljen je naveden v Slovenskem pravopisu 2001, ne pa tudi v SSKJ2. Kljub temu je raba deležnika pogosta."
+      }
+    },
+    {
+      "id": "paronym_debutirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "debutirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "debutirati",
+        "Iscete": "debuttare",
+        "SteMislili": "debitirati",
+        "Npr": "Pisatelj je debitiral z ljubezenskim romanom.",
+        "Vslo": "Glagol debutirati v SSKJ2 ni obravnavan kot knjižni; slovar nas usmerja k rabi glagola debitirati. Kljub temu je raba glagola debutirati pogosta."
+      }
+    },
+    {
+      "id": "paronym_bodyguard",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "bodyguard"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "bodyguard",
+        "Iscete": "bodyguard, security, guardia del corpo",
+        "SteMislili": "varnostnik",
+        "Npr": "varnostnik slavne filmske igralke",
+        "Vslo": "Samostalnik bodyguard je uslovarjen (v SSKJ2), a označen kot pogovorni. Z izjemo citatov iz angleščine in lastnih imen je raba tujke redka."
+      }
+    },
+    {
+      "id": "paronym_browser",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "browser"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "browser",
+        "SteMislili": "brskalnik",
+        "Vslo": "V SLO samostalnik browser ni uslovarjen, raba pa je z izjemo citatov iz angleščine in lastnih imen redka. Termine s področja računalništva in informatike v slovenščini običajno prevajamo."
+      }
+    },
+    {
+      "id": "paronym_tolmačica",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "tolmačica"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "tolmačica",
+        "SteMislili": "tolmačka",
+        "Npr": "tolmačka za angleški jezik; tolmačka za znakovni jezik",
+        "Vslo": "Samostalnik tolmačica je uslovarjen (v SSKJ2), a je kot nadrejena sopomenka naveden samostalnik tolmačka. Raba samostalnika tolmačica je redkejša."
+      }
+    },
+    {
+      "id": "paronym_finansiranje",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "finansiranje"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "finansiranje",
+        "SteMislili": "financiranje",
+        "Npr": "financiranje znanstvenih raziskav; sistem financiranja",
+        "Vslo": "Glagol finansirati je naveden v Slovenskem pravopisu 2001, ne pa tudi v SSKJ2. Raba glagola finansirati je veliko redkejša od rabe glagola financirati."
+      }
+    },
+    {
+      "id": "paronym_kvarantena",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "kvarantena"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "kvarantena",
+        "Iscete": "quarantena",
+        "SteMislili": "karantena",
+        "Npr": "prestati večdnevno karanteno; biti v karanteni",
+        "Vslo": "V SLO beseda kvarantena ni niti uslovarjena niti izpričana v rabi."
+      }
+    },
+    {
+      "id": "paronym_mehikanec",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "Mehikanec"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "Mehikanec",
+        "Iscete": "messicano",
+        "SteMislili": "Mehičan",
+        "Npr": "Zgodovinar Francesco Saverio Clavigero je bil Mehičan.",
+        "Vslo": "Oblika Mehikanec za prebivalca Mehike je navedena v Slovenskem pravopisu 2001, vendar nas pravopis usmerja k rabi nadrejene sopomenke Mehičan. Raba samostalnika Mehikanec je veliko redkejša od rabe samostalnika Mehičan."
+      }
+    },
+    {
+      "id": "paronym_komemorirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "komemorirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "komemorirati",
+        "Iscete": "commemorare",
+        "SteMislili": "slaviti, prosljavljati, spominjati se",
+        "Npr": "Po vsej Sloveniji slavijo stoletnico umetnikovega rojstva; s temi dejanji proslavljajo tudi domovino.",
+        "Vslo": "V SLO glagol komemorirati ni niti uslovarjen niti izpričan v rabi."
+      }
+    },
+    {
+      "id": "paronym_spoprijazniti",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "spoprijazniti"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "spoprijazniti",
+        "SteMislili": "sprijazniti",
+        "Vslo": "Glagol spoprijazniti se je uslovarjen (v SSKJ2), a je kot nadrejena sopomenka naveden glagol sprijazniti se. Raba glagola spoprijazniti se je redka."
+      }
+    },
+    {
+      "id": "paronym_protiviti",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "protiviti"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "protiviti",
+        "SteMislili": "upirati se, nasprotovati, zoperstaviti se",
+        "Vslo": "Glagol protiviti se je uslovarjen (v SSKJ2 in SP), a je označen kot starinski. Raba je redka."
+      }
+    },
+    {
+      "id": "paronym_inokulirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "inokulirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "inokulirati",
+        "Iscete": "inoculare",
+        "SteMislili": "vcepiti, vnesti v telo",
+        "Vslo": "Glagol inokulirati je uslovarjen (v SSKJ2 in SP), vendar je raba redka in specifična za strokovno področje medicine."
+      }
+    },
+    {
+      "id": "paronym_rekreatorij",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "rekreatorij"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "rekreatorij",
+        "Iscete": "ricreatorio",
+        "SteMislili": "občinski center za obšolske dejavnosti, občinski center za popoldansko varstvo",
+        "Npr": "Tržaška občina je vzpostavila mrežo centrov za obšolske dejavnosti.",
+        "Vslo": "V SLO leksem rekreatorij ni uslovarjen, raba pa je izjemno redka in izključno lokalna."
+      }
+    },
+    {
+      "id": "paronym_inkasirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "inkasirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "inkasirati",
+        "Iscete": "incassare",
+        "SteMislili": "unovčiti, prejeti",
+        "Npr": "Prodajalka je prejela znesek, a ni izdala računa.",
+        "Vslo": "Glagol inkasirati je uslovarjen (v SSKJ2 in SP), a je njegova raba označena kot zastarela. Raba tega glagola je danes izjemno redka."
+      }
+    },
+    {
+      "id": "paronym_regularizirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "regularizirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "regularizirati",
+        "Iscete": "regolarizzare",
+        "SteMislili": "regulirati; urediti, popraviti",
+        "Npr": "Država lahko z zakoni regulira gospodarsko politiko. Študentka mora urediti svoj status.",
+        "Vslo": "V SLO glagol regularizirati ni uslovarjen, raba pa je izjemno redka."
+      }
+    },
+    {
+      "id": "paronym_sensibilizirati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "sensibilizirati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "sensibilizirati",
+        "Iscete": "sensibilizzare",
+        "SteMislili": "ozaveščati, ozavestiti; osveščati, osvestiti",
+        "Npr": "Civilne organizacije skušajo ozavestiti ljudi o pomenu zdrave prehrane.",
+        "Vslo": "V SLO glagol sensibilizirati ni uslovarjen, raba pa je izjemno redka in izključno lokalna. Uslovarjen je glagol senzibilizirati (v SSKJ2 in SP), ki pa se uporabja zlasti na področju medicine."
       }
     }
   ]

@@ -1,0 +1,16 @@
+[Unit]
+Description=my_lemmatizer FastAPI service for LORIS/LingHub
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/my_lemmatizer
+Environment="PATH=/opt/my_lemmatizer/.venv/bin"
+ExecStart=/opt/my_lemmatizer/.venv/bin/uvicorn app:app --host 127.0.0.1 --port 8001
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

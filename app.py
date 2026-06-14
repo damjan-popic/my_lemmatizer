@@ -296,37 +296,50 @@ def _match_phrase_index(
     for start_i in range(len(tokens)):
         for end_i in range(start_i + 1, min(len(tokens), start_i + max_window) + 1):
             if match_on == "lemma":
-                key = _window_lemma_key(tokens, start_i, end_i)
+                # Primary path: compare the token lemma sequence.
+                # Fallback path: compare the exact original surface window against the
+                # same lemma-phrase index. This is deliberate for approved LORIS
+                # spreadsheet terms such as "na štiri roke" or "v okviru", whose
+                # display form is often also the exact user-facing error string even
+                # when the internal lemma sequence may differ slightly. The fallback
+                # does not affect single-token lemma rules.
+                candidate_keys = [
+                    _window_lemma_key(tokens, start_i, end_i),
+                    _window_surface_key(text, tokens, start_i, end_i),
+                ]
             else:
-                key = _window_surface_key(text, tokens, start_i, end_i)
+                candidate_keys = [_window_surface_key(text, tokens, start_i, end_i)]
 
-            if not key:
-                continue
-
-            for rule, trigger in index.get(key, []):
-                if not applicable_to_lang(rule, lang):
+            key_seen = set()
+            for key in candidate_keys:
+                if not key or key in key_seen:
                     continue
+                key_seen.add(key)
 
-                start = tokens[start_i].start
-                end = tokens[end_i - 1].end
-                dedupe_key = (rule.get("id"), match_on, start, end)
-                if dedupe_key in seen:
-                    continue
-                seen.add(dedupe_key)
+                for rule, trigger in index.get(key, []):
+                    if not applicable_to_lang(rule, lang):
+                        continue
 
-                issues.append(_make_issue(rule, start, end))
-                spans.append(
-                    _make_span(
-                        rule,
-                        match_on=match_on,
-                        trigger=trigger,
-                        token_start=start_i,
-                        token_end=end_i,
-                        tokens=tokens,
-                        text=text,
-                        normalized=key,
+                    start = tokens[start_i].start
+                    end = tokens[end_i - 1].end
+                    dedupe_key = (rule.get("id"), match_on, start, end)
+                    if dedupe_key in seen:
+                        continue
+                    seen.add(dedupe_key)
+
+                    issues.append(_make_issue(rule, start, end))
+                    spans.append(
+                        _make_span(
+                            rule,
+                            match_on=match_on,
+                            trigger=trigger,
+                            token_start=start_i,
+                            token_end=end_i,
+                            tokens=tokens,
+                            text=text,
+                            normalized=key,
+                        )
                     )
-                )
 
     return issues, spans
 
@@ -391,7 +404,7 @@ def match_rules(text: str, tokens: List[Token], lang: str) -> Tuple[List[Issue],
     spans: List[SpanMatch] = []
 
     # 1) lemma-based single-token rules (paronymi, prepovedani, nepravilni, odsvetovani)
-    for tok in tokens:
+    for token_i, tok in enumerate(tokens):
         lemma_key = _norm_key(tok.lemma)
         if not lemma_key:
             continue
@@ -399,9 +412,21 @@ def match_rules(text: str, tokens: List[Token], lang: str) -> Tuple[List[Issue],
             if not applicable_to_lang(rule, lang):
                 continue
             issues.append(_make_issue(rule, tok.start, tok.end))
+            spans.append(
+                _make_span(
+                    rule,
+                    match_on="lemma",
+                    trigger=tok.lemma,
+                    token_start=token_i,
+                    token_end=token_i + 1,
+                    tokens=tokens,
+                    text=text,
+                    normalized=lemma_key,
+                )
+            )
 
     # 2) surface single-token rules (slogovni, etc.)
-    for tok in tokens:
+    for token_i, tok in enumerate(tokens):
         surface_key = _norm_key(tok.text)
         if not surface_key:
             continue
@@ -409,6 +434,18 @@ def match_rules(text: str, tokens: List[Token], lang: str) -> Tuple[List[Issue],
             if not applicable_to_lang(rule, lang):
                 continue
             issues.append(_make_issue(rule, tok.start, tok.end))
+            spans.append(
+                _make_span(
+                    rule,
+                    match_on="surface",
+                    trigger=tok.text,
+                    token_start=token_i,
+                    token_end=token_i + 1,
+                    tokens=tokens,
+                    text=text,
+                    normalized=surface_key,
+                )
+            )
 
     # 3) multi-token lemma rules, e.g. "compact disc", "okoristiti se"
     phrase_issues, phrase_spans = _match_phrase_index(
@@ -461,6 +498,11 @@ def root():
     Handy for 'nothing happens' moments.
     """
     return {"status": "ok", "message": "NLP service is running."}
+
+
+@app.get("/health")
+def health():
+    return {"status": "ok", "service": "my_lemmatizer"}
 
 
 @app.post("/analyze", response_model=List[Token])
