@@ -1,0 +1,128 @@
+# SAFE SERVER PUSH: my_lemmatizer only
+# Purpose:
+# - deploy new LORIS rules + MWU/span matcher
+# - keep existing .venv and logs
+# - do NOT deploy new LingHub code yet
+#
+# Why not LingHub today?
+# The server currently has only /opt/LingHub/data/thesaurus.xml and no collocation shards.
+# The new LingHub bundle expects data/collocations/collocations_export_*.xml on startup.
+# So today's safest push is my_lemmatizer only. Existing LingHub already proxies /nlp/loris-check.
+#
+# Run this from WSL on your local machine, not from inside the droplet.
+# Adjust SRC only if your bundle is somewhere else.
+
+set -euo pipefail
+
+REMOTE="root@46.101.236.89"
+SRC="/mnt/c/Users/damja/Desktop/bundle_latest_loris_mwu"
+
+echo "=== Checking local bundle ==="
+test -d "$SRC/my_lemmatizer-main" || { echo "Missing: $SRC/my_lemmatizer-main"; exit 1; }
+test -f "$SRC/my_lemmatizer-main/app.py" || { echo "Missing app.py"; exit 1; }
+test -f "$SRC/my_lemmatizer-main/loris_rules_final.json" || { echo "Missing loris_rules_final.json"; exit 1; }
+
+echo
+echo "=== Local JSON sanity check ==="
+python3 - <<PY
+import json
+from pathlib import Path
+p = Path("$SRC/my_lemmatizer-main/loris_rules_final.json")
+data = json.loads(p.read_text(encoding="utf-8"))
+rules = data["rules"]
+ids = [r["id"] for r in rules]
+print("local rules:", len(rules))
+print("local unique IDs:", len(set(ids)))
+print("local duplicate IDs:", len(ids)-len(set(ids)))
+print("has paronym_na_štiri_roke:", any(r["id"] == "paronym_na_štiri_roke" for r in rules))
+assert len(rules) == 1798
+assert len(ids) == len(set(ids))
+assert any(r["id"] == "paronym_na_štiri_roke" for r in rules)
+PY
+
+echo
+echo "=== Remote backup ==="
+ssh "$REMOTE" 'set -e;
+TS=$(date +%Y%m%d_%H%M%S);
+mkdir -p /root/loris_backups;
+tar -czf "/root/loris_backups/my_lemmatizer_before_$TS.tar.gz" -C /opt my_lemmatizer;
+echo "Backup created: /root/loris_backups/my_lemmatizer_before_$TS.tar.gz";
+ls -lh "/root/loris_backups/my_lemmatizer_before_$TS.tar.gz";
+'
+
+echo
+echo "=== Rsync my_lemmatizer to /opt/my_lemmatizer ==="
+rsync -avh --delete \
+  --exclude='.venv/' \
+  --exclude='__pycache__/' \
+  --exclude='*.pyc' \
+  --exclude='*.log' \
+  "$SRC/my_lemmatizer-main/" \
+  "$REMOTE:/opt/my_lemmatizer/"
+
+echo
+echo "=== Remote validation before restart ==="
+ssh "$REMOTE" 'set -e;
+cd /opt/my_lemmatizer;
+
+echo "--- files ---";
+ls -lah;
+
+echo "--- compile app.py ---";
+/opt/my_lemmatizer/.venv/bin/python -m py_compile app.py;
+
+echo "--- JSON check ---";
+/opt/my_lemmatizer/.venv/bin/python - <<PY
+import json
+from pathlib import Path
+p = Path("/opt/my_lemmatizer/loris_rules_final.json")
+data = json.loads(p.read_text(encoding="utf-8"))
+rules = data["rules"]
+ids = [r["id"] for r in rules]
+print("remote rules:", len(rules))
+print("remote unique IDs:", len(set(ids)))
+print("remote duplicate IDs:", len(ids)-len(set(ids)))
+print("has paronym_na_štiri_roke:", any(r["id"] == "paronym_na_štiri_roke" for r in rules))
+assert len(rules) == 1798
+assert len(ids) == len(set(ids))
+assert any(r["id"] == "paronym_na_štiri_roke" for r in rules)
+PY
+
+echo "--- spaCy validate; no model update unless this fails ---";
+/opt/my_lemmatizer/.venv/bin/python -m spacy validate;
+'
+
+echo
+echo "=== Restart my_lemmatizer ==="
+ssh "$REMOTE" 'set -e;
+systemctl restart my_lemmatizer.service;
+sleep 8;
+systemctl status my_lemmatizer.service --no-pager;
+'
+
+echo
+echo "=== Endpoint tests ==="
+ssh "$REMOTE" 'set -e;
+echo "--- my_lemmatizer /health ---";
+curl -sS --max-time 20 http://127.0.0.1:8001/health || true;
+echo;
+echo "--- my_lemmatizer /loris/check ---";
+curl -sS --max-time 60 -X POST http://127.0.0.1:8001/loris/check \
+  -H "Content-Type: application/json" \
+  -d "{\"lang\":\"sl\",\"text\":\"To smo naredili na štiri roke.\"}" \
+  | python3 -m json.tool;
+echo;
+echo "--- LingHub proxy /nlp/loris-check ---";
+curl -sS --max-time 60 -X POST http://127.0.0.1:8010/nlp/loris-check \
+  -H "Content-Type: application/json" \
+  -d "{\"lang\":\"sl\",\"text\":\"To smo naredili na štiri roke.\"}" \
+  | python3 -m json.tool;
+'
+
+echo
+echo "=== Done ==="
+echo "Expected:"
+echo "- /opt/my_lemmatizer/loris_rules_final.json has 1798 rules"
+echo "- /loris/check contains spans"
+echo "- LingHub /nlp/loris-check also contains spans"
+echo "- rule_id paronym_na_štiri_roke appears for the test sentence"

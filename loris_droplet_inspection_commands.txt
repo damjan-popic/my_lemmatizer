@@ -1,0 +1,197 @@
+# LORIS / LingHub droplet inspection commands
+# Run this on the DigitalOcean droplet after SSH login.
+# Best run as root.
+#
+# What it does:
+# - checks systemd service files
+# - checks service status
+# - checks ports
+# - checks nginx routing
+# - checks PM2 proxy state
+# - checks Python venvs and spaCy models
+# - tests local endpoints
+# - writes everything to /tmp/loris_droplet_report.txt
+#
+# After it finishes, paste the contents of:
+#   /tmp/loris_droplet_report.txt
+# back into ChatGPT.
+
+cat > /tmp/loris_droplet_inspect.sh <<'BASH'
+#!/usr/bin/env bash
+set +e
+
+REPORT="/tmp/loris_droplet_report.txt"
+
+{
+echo "============================================================"
+echo "LORIS / LingHub DROPLET REPORT"
+echo "Generated: $(date -Is)"
+echo "User: $(whoami)"
+echo "Host: $(hostname)"
+echo "Kernel: $(uname -a)"
+echo "============================================================"
+
+echo
+echo "============================================================"
+echo "1. MAIN PATHS"
+echo "============================================================"
+ls -lah /opt || true
+echo
+ls -lah /opt/my_lemmatizer || true
+echo
+ls -lah /opt/LingHub || true
+echo
+ls -lah /opt/lh-proxy/linghub-proxy || true
+
+echo
+echo "============================================================"
+echo "2. TREE: DEPLOYED APPS"
+echo "============================================================"
+tree -a -L 3 /opt/my_lemmatizer 2>/dev/null || find /opt/my_lemmatizer -maxdepth 3 -print
+echo
+tree -a -L 3 /opt/LingHub 2>/dev/null || find /opt/LingHub -maxdepth 3 -print
+echo
+tree -a -L 3 /opt/lh-proxy/linghub-proxy 2>/dev/null || find /opt/lh-proxy/linghub-proxy -maxdepth 3 -print
+
+echo
+echo "============================================================"
+echo "3. SYSTEMD SERVICE FILES"
+echo "============================================================"
+echo "--- my_lemmatizer.service ---"
+systemctl cat my_lemmatizer.service || true
+echo
+echo "--- linghub.service ---"
+systemctl cat linghub.service || true
+
+echo
+echo "============================================================"
+echo "4. SERVICE STATUS"
+echo "============================================================"
+systemctl status my_lemmatizer.service --no-pager || true
+echo
+systemctl status linghub.service --no-pager || true
+echo
+systemctl status nginx.service --no-pager || true
+
+echo
+echo "============================================================"
+echo "5. LISTENING PORTS"
+echo "============================================================"
+ss -ltnp | grep -Ei '(:80|:443|:8001|:8010|:3000|:5000|:5173|python|uvicorn|node|nginx)' || ss -ltnp || true
+
+echo
+echo "============================================================"
+echo "6. NGINX ROUTING"
+echo "============================================================"
+nginx -T 2>/dev/null | grep -n -Ei 'server_name|location|proxy_pass|loris|linghub|lemmat|8001|8010|lh-proxy|api' -C 3 || true
+
+echo
+echo "============================================================"
+echo "7. PM2 STATE AS slori"
+echo "============================================================"
+sudo -iu slori bash -lc '
+  echo "--- pm2 list ---"
+  pm2 list || true
+  echo
+  echo "--- pm2 show loris.lh-proxy ---"
+  pm2 show loris.lh-proxy || true
+  echo
+  echo "--- pm2 show loris.ling-hub-proxy ---"
+  pm2 show loris.ling-hub-proxy || true
+  echo
+  echo "--- pm2 logs last lines ---"
+  tail -n 80 ~/.pm2/logs/loris.lh-proxy-out.log 2>/dev/null || true
+  tail -n 80 ~/.pm2/logs/loris.lh-proxy-error.log 2>/dev/null || true
+'
+
+echo
+echo "============================================================"
+echo "8. MY_LEMMATIZER PYTHON / VENV / MODELS"
+echo "============================================================"
+cd /opt/my_lemmatizer || true
+/opt/my_lemmatizer/.venv/bin/python --version || true
+echo
+/opt/my_lemmatizer/.venv/bin/python -m pip show spacy sl-core-news-lg it-core-news-lg 2>/dev/null | sed -n '1,180p' || true
+echo
+/opt/my_lemmatizer/.venv/bin/python -m spacy validate || true
+echo
+echo "--- loris_rules_final.json check ---"
+/opt/my_lemmatizer/.venv/bin/python - <<'PY' || true
+import json
+from pathlib import Path
+p = Path("/opt/my_lemmatizer/loris_rules_final.json")
+print("exists:", p.exists(), p)
+if p.exists():
+    data = json.loads(p.read_text(encoding="utf-8"))
+    rules = data.get("rules", data if isinstance(data, list) else [])
+    ids = [r.get("id") for r in rules if isinstance(r, dict)]
+    print("rules:", len(rules))
+    print("unique ids:", len(set(ids)))
+    print("duplicate ids:", len(ids)-len(set(ids)))
+    print("has paronym_na_štiri_roke:", any(r.get("id") == "paronym_na_štiri_roke" for r in rules if isinstance(r, dict)))
+PY
+
+echo
+echo "============================================================"
+echo "9. LINGHUB PYTHON / VENV / DATA"
+echo "============================================================"
+cd /opt/LingHub || true
+/opt/LingHub/.venv/bin/python --version || true
+echo
+/opt/LingHub/.venv/bin/python -m pip freeze | sed -n '1,180p' || true
+echo
+echo "--- LingHub data files ---"
+find /opt/LingHub/data -maxdepth 3 -type f -printf '%p\t%k KB\n' 2>/dev/null | sort || true
+
+echo
+echo "============================================================"
+echo "10. LOCAL ENDPOINT TESTS"
+echo "============================================================"
+echo "--- my_lemmatizer /health ---"
+curl -sS --max-time 20 http://127.0.0.1:8001/health || true
+echo
+echo
+echo "--- LingHub /health ---"
+curl -sS --max-time 20 http://127.0.0.1:8010/health || true
+echo
+echo
+echo "--- my_lemmatizer /loris/check: na štiri roke ---"
+curl -sS --max-time 60 -X POST http://127.0.0.1:8001/loris/check \
+  -H 'Content-Type: application/json' \
+  -d '{"lang":"sl","text":"To smo naredili na štiri roke."}' \
+  | python3 -m json.tool || true
+echo
+echo "--- LingHub /nlp/loris-check: na štiri roke ---"
+curl -sS --max-time 60 -X POST http://127.0.0.1:8010/nlp/loris-check \
+  -H 'Content-Type: application/json' \
+  -d '{"lang":"sl","text":"To smo naredili na štiri roke."}' \
+  | python3 -m json.tool || true
+
+echo
+echo "============================================================"
+echo "11. RECENT SERVICE LOGS"
+echo "============================================================"
+echo "--- my_lemmatizer journal ---"
+journalctl -u my_lemmatizer.service -n 120 --no-pager || true
+echo
+echo "--- linghub journal ---"
+journalctl -u linghub.service -n 120 --no-pager || true
+
+echo
+echo "============================================================"
+echo "END OF REPORT"
+echo "============================================================"
+
+} > "$REPORT" 2>&1
+
+echo
+echo "Report written to: $REPORT"
+echo
+echo "Paste the following command output back into ChatGPT:"
+echo
+echo "cat $REPORT"
+echo
+BASH
+
+chmod +x /tmp/loris_droplet_inspect.sh
+/tmp/loris_droplet_inspect.sh

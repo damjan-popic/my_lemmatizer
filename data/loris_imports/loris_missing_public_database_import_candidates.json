@@ -1,0 +1,1701 @@
+{
+  "metadata": {
+    "description": "Candidate import rules for broader public Kaj zna Loris / Abecedno-Uvoženi entries missing from loris_rules_final.json.",
+    "source_missing_csv": "loris_final_json_vs_webpage_source_missing.csv",
+    "canonical_target": "loris_rules_final.json",
+    "rules_in_current_final_before_import": 1798,
+    "candidate_rules": 60,
+    "skipped_covered_variants": 7,
+    "expected_rules_after_import_if_none_already_present": 1858,
+    "note": "Rules include _import metadata for audit. The importer can strip it before writing final JSON."
+  },
+  "rules": [
+    {
+      "id": "paronym_anodo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "anodo",
+          "anod"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "anod(o)",
+        "Iscete": "anodo",
+        "SteMislili": "anoda"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "12",
+        "original_izhodisce": "anod(o)",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_biti_sredi_med_ljudmi",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "biti sredi med ljudmi"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "biti sredi med ljudmi",
+        "Iscete": "stare in mezzo alla gente",
+        "SteMislili": "biti med ljudmi",
+        "Npr": "Rad sem med ljudmi in uživam v družbi.",
+        "Vslo": "/"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "18",
+        "original_izhodisce": "biti sredi med ljudmi",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_brez_drugega",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "brez drugega"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "brez drugega",
+        "Iscete": "senz'altro",
+        "SteMislili": "seveda, vsekakor, v vsakem primeru, zagotovo",
+        "Npr": "To bom zagotovo končal do jutri.",
+        "Vslo": "Besedna zveza brez drugega (pogovorno tudi brez druzga) je kalk italijanske besedne zveze 'senz'altro'. Govorcem in govorkam, ki ne znajo italijansko, pomen te besedne zveze ni jasen.",
+        "Link": "https://viri.cjvt.si/sopomenke/slv/headword/46132"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "19",
+        "original_izhodisce": "brez drugega",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_zadnja_pisarna",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "zadnja pisarna"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "zadnja pisarna",
+        "Iscete": "back office, retrosportello",
+        "SteMislili": "(službe za) zaledno delo"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "21",
+        "original_izhodisce": "zadnja pisarna",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "ZKB",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_čelna_pisarna",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "čelna pisarna"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "čelna pisarna",
+        "Iscete": "front office, sportello",
+        "SteMislili": "(službe za) delo s strankami"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "22",
+        "original_izhodisce": "čelna pisarna",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "ZKB",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_današnjica",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "današnjica"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "današnjica",
+        "Iscete": "?",
+        "SteMislili": "dandanašnji/danes"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "23",
+        "original_izhodisce": "današnjica",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_dati_staviti_se_na_kolena",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "dati se na kolena",
+          "staviti se na kolena"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "dati/staviti se na kolena"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "24",
+        "original_izhodisce": "dati/staviti se na kolena",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_delo_na_zahtevo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "delo na zahtevo"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "delo na zahtevo",
+        "Iscete": "lavoro a chiamata",
+        "SteMislili": "občasno, priložnostno, sezonsko delo",
+        "Npr": "Veliko študentov se odloči za sezonsko / priložnostno / občasno delo med poletnimi počitnicami.",
+        "Vslo": "Besedna zveza delo na zahtevo v slovenščini ni termin. Govorcem in govorkam, ki ne znajo italijansko, pomen te besedne zveze ni jasen."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "29",
+        "original_izhodisce": "delo na zahtevo",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "moram preverit, kaj pravi slo zakonodaja",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_dobro_delo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "dobro delo"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "dobro delo",
+        "Iscete": "buon lavoro!",
+        "SteMislili": "srečno! uspešno delo (vam želim)!",
+        "Npr": "Morate napisati seminarsko nalogo? Srečno!",
+        "Vslo": "Samostalniška besedna zveza dobro delo se ne uporablja kot vzklik, voščilo; označuje zgolj vrsto ali kakovost dela."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "31",
+        "original_izhodisce": "dobro delo",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_dobrobit",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "dobrobit"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "dobrobit",
+        "SteMislili": "dobro"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "32",
+        "original_izhodisce": "dobrobit",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_doktoriranje",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "doktoriranje"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "doktoriranje",
+        "SteMislili": "doktorat"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "34",
+        "original_izhodisce": "doktoriranje",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_določen",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "določen"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "določen",
+        "Iscete": "un certo",
+        "SteMislili": "neki, neka, neko; nekateri, nekatera, nekatero; kakšen, kakšna, kakšno",
+        "Npr": "Nekateri problemi so nerešljivi. Pojavile so se neke težave.",
+        "Vslo": "Pridevnik določen ne izraža nedoločnosti, poljubnosti, temveč določnost, specifičnost; sopomenke: fiksen, opredeljen, definiran, predpisan.",
+        "Link": "če se da: link na https://viri.cjvt.si/sopomenke/slv/headword/16474"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "36",
+        "original_izhodisce": "določen",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_en_tubo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "en tubo"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "en tubo",
+        "Iscete": "un tubo",
+        "SteMislili": "nič, ničesar",
+        "Npr": "Non vedo un tubo. -> Nič ne vidim.",
+        "Vslo": "Besedna zveza en tubo je delni prevod italijanske pogovorne besedne zveze 'un tubo'. Besedna zveza en tubo se pogovorno uporablja izključno v lokalnem okolju; govorcem in govorkam, ki ne znajo italijansko, pomen te besedne zveze ni jasen."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "38",
+        "original_izhodisce": "en tubo",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_gozdna_policija",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "gozdna policija"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "gozdna policija",
+        "Iscete": "corpo forestale / guardia forestale",
+        "SteMislili": "gozdarska policija",
+        "Vslo": "Leksem gozdna policija v standardni slovenščini ne obstaja."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "42",
+        "original_izhodisce": "gozdna policija",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "x",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_imeti_na_grbi",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "imeti na grbi"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "imeti na grbi",
+        "Iscete": "avere sulla groppa",
+        "SteMislili": "imeti na plečih",
+        "Npr": "Na svojih plečih ima veliko odgovornosti.",
+        "Vslo": "Besedna zveza imeti na grbi se v slo pojavlja redkeje, in sicer zlasti v kontekstu težavnih, neprijetnih stvari, ne zgolj kot odgovornost in naloga."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "45",
+        "original_izhodisce": "imeti na grbi",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_intestirani_papir",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "intestirani papir"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "intestirani papir",
+        "Iscete": "carta intestata",
+        "SteMislili": "(uradni) papir podjetja/ustanove; papir z logotipom",
+        "Npr": "Dopis pošljite na uradnem papirju.",
+        "Vslo": "/"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "46",
+        "original_izhodisce": "intestirani papir",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_javna_dela",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "javna dela"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "javna dela",
+        "Iscete": "lavori pubblici",
+        "SteMislili": "javne ureditve (npr. urejanje zelenic)\njavne infrastrukturne ureditve (npr. kanalizacija)\njavna gradbena dela\njavne gradnje (npr. gradnja objektov, cest)\njavne investicije (splošno)",
+        "Npr": "Občina je v proračunu predvidela višjo postavko za javne investicije.",
+        "Vslo": "Slo javna dela = programi, namenjeni dolgotrajno brezposelnim osebam ali drugim ranljivim skupinam (ita 'lavori socialmente utili')"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "47",
+        "original_izhodisce": "javna dela",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "že obdelano, treba samo dopolnit",
+        "owner_flag": "x",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_kratek_spomin",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "kratek spomin"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "kratek spomin",
+        "SteMislili": "hiter pregled",
+        "Npr": "Hiter pregled osnutka pokaže, da se uprava s pripravo ni prav trudila, ampak je proračunski porabi prejšnjega leta le dodala indekse, je povedal.",
+        "Vslo": "kratek spomin = pretvarjanje, da se nekaj iz preteklosti ni zgodilo, poskus pozabe česa neprijetnega"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "52",
+        "original_izhodisce": "kratek spomin",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_meja_dolga",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "meja dolga"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "meja dolga",
+        "Iscete": "limite di credito, fido",
+        "SteMislili": "limit, dovoljena prekoračitev stanja",
+        "Npr": "Presegel sem limit na svoji kartici, tako da moram poklicati banko.",
+        "Vslo": "Meja dolga se v slovenščini uporablja izključno v zvezi z zviševanjem pragu zadolženosti ZDA, ki ga mora periodično izglasovati ameriški kongres."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "55",
+        "original_izhodisce": "meja dolga",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "ZKB",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_menjati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "menjati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "menjati",
+        "Iscete": "cambiare",
+        "SteMislili": "spremeniti (se), preoblikovati, prilagoditi; previti, preobleči, prebuti; zamenjati",
+        "Npr": "Zaposleni so spremenili način dela (= način dela je drugačen, služba je ista). Odkar sem zaposlena, sem službo zamenjala enkrat (= zaposlena sem na drugem delovnem mestu). Dojenčka je treba previti.",
+        "Vslo": "Ita 'cambiare' je večpomenski glagol. Za različne pomene uporabljamo v slovenščini različne glagole."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "56",
+        "original_izhodisce": "menjati",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_narediti_odmor",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "narediti odmor"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "narediti odmor",
+        "Iscete": "fare una pausa",
+        "SteMislili": "narediti pavzo, odpočiti si, vzeti si odmor / čas zase, privoščiti si odklop",
+        "Npr": "Začeli smo lani marca, prišlo je poletje in zato smo naredili pavzo.",
+        "Vslo": "Besedna zveza narediti odmor pomeni za kratek čas (= odmor) prekiniti točno določeno dejavnost, npr. serijo vaj pri telovadbi."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "62",
+        "original_izhodisce": "narediti odmor",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "ni končano!",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_natečajnik",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "natečajnik"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "natečajnik",
+        "Iscete": "?"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "63",
+        "original_izhodisce": "natečajnik",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_ne_hočem",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "ne hočem"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "ne hočem",
+        "Iscete": "non voglio",
+        "SteMislili": "nočem",
+        "Vslo": "Glagoli biti, imeti in hoteti tvorijo zanikane oblike za sedanjik povednega naklona nisem, nisi, ni itd.; nimam, nimaš, nima itd.; nočem, nočeš, noče itd."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "64",
+        "original_izhodisce": "ne hočem",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "zastavica \"ne+hoteti\"",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_ne_imeti_volje",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "ne imeti volje"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "ne imeti volje",
+        "Iscete": "non avere voglia",
+        "SteMislili": "ne dati se (komu), ne biti (komu) do nečesa",
+        "Npr": "Danes se mi nič ne da. Ni mi do tega.",
+        "Vslo": "Slovenski leksem volja pomeni hotenje, željo oz. sposobnost hotenja (ita 'volontà'): močna volja = 'una grande forza di volontà'."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "65",
+        "original_izhodisce": "ne imeti volje",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "že obdelano, treba samo dopolnit",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_ne_vidim_ure",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "ne vidim ure"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "ne vidim ure",
+        "Iscete": "non vedo l'ora!",
+        "SteMislili": "komaj čakam!",
+        "Npr": "Komaj čakam, da pride poletje! Otroci komaj čakajo na sladoled.",
+        "Vslo": "Frazem 'non vedere l'ora' ima v italijanščini prenesen pomen, v slovenščini pa stavek ne vidim ure pomeni dobesedno, da nekdo ne vidi naprave za merjenje časa."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "66",
+        "original_izhodisce": "ne vidim ure",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_neizostaven",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "neizostaven"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "neizostaven",
+        "Iscete": "?",
+        "SteMislili": "nepogrešljiv"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "68",
+        "original_izhodisce": "neizostaven",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_obrat",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "obrat"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "obrat",
+        "SteMislili": "lokal",
+        "Npr": "Ker je bilo jezero večino letošnjega poletja premrzlo za kopanje, je bil park dobrodošla ponudba tudi za goste v avtokampu, kar se je poznalo v tukajšnjih trgovinah in gostinskih lokalih",
+        "Vslo": "Gostinski lokali (obrati so pretežno industrijski ali proizvodni), kozmetični (in ne estetski) in frizerski saloni."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "70",
+        "original_izhodisce": "obrat",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_ostati_nazaj",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "ostati nazaj"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "ostati nazaj",
+        "Iscete": "rimanere indietro",
+        "SteMislili": "zaostajati, ne dohajati\nrimanere indietro con gli impegni???",
+        "Npr": "Ostali izletniki so stopali proti koči, mi pa smo zaostali.",
+        "Vslo": "besedna zveza ostati nazaj se uporablja izključno v lokalnem okolju; govorcem, ki ne znajo italijansko, pomen te besedne zveze ni jasen."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "77",
+        "original_izhodisce": "ostati nazaj",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "že obdelano, treba samo dopolnit",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_peškati",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "peškati"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "peškati",
+        "SteMislili": "pešačiti, hoditi",
+        "Vslo": "/"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "79",
+        "original_izhodisce": "peškati",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_plačevalec",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "plačevalec"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "plačevalec",
+        "Iscete": "contribuente",
+        "SteMislili": "davkoplačevalec, davčni zavezanec; plačnik",
+        "Npr": "Davkoplačevalci od vlade pričakujejo transparentnost.",
+        "Vslo": "V slovenščini se izraz plačevalec v vseh oblikah pojavlja izjemno redko."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "80",
+        "original_izhodisce": "plačevalec",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_plačevanje",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "plačevanje"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "plačevanje",
+        "SteMislili": "plačilo, izplačilo"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "81",
+        "original_izhodisce": "plačevanje",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_položaj_do_nečesa",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "položaj do nečesa"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "položaj do nečesa",
+        "Iscete": "posizione su / riguardo a",
+        "SteMislili": "mnenje, stališče (o čem); odnos (do česa)",
+        "Npr": "Stališča strank o volilnem sistemu so bolj ali manj znana."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "82",
+        "original_izhodisce": "položaj do nečesa",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "zastavica \"položaj do\"",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_pooblaščena_upraviteljica",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "pooblaščena upraviteljica"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "pooblaščena upraviteljica",
+        "Iscete": "amministratrice delegata",
+        "SteMislili": "izvršna direktorica, poslovodna članica upravnega odbora",
+        "Vslo": "Besedna zveza pooblaščena upraviteljica v slovenskem standardnem jeziku ni termin."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "83",
+        "original_izhodisce": "pooblaščena upraviteljica",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "FJK, ZKB",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_pooblaščeni_upravitelj",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "pooblaščeni upravitelj"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "pooblaščeni upravitelj",
+        "Iscete": "amministratore delegato",
+        "SteMislili": "izvršni direktor, poslovodni član upravnega odbora",
+        "Vslo": "Besedna zveza pooblaščeni upravitelj v slovenskem standardnem jeziku ni termin."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "84",
+        "original_izhodisce": "pooblaščeni upravitelj",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "FJK, ZKB",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_prevzeti_si",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "prevzeti si"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "prevzeti si",
+        "Iscete": "assumersi",
+        "SteMislili": "prevzeti odgovornost, nalogo; prevzeti pošiljko",
+        "Npr": "Direktorica je prevzela odgovornost za napako. Nihče ni hotel prevzeti zahtevne naloge.",
+        "Vslo": "Slo prevzeti uporabljamo brez prostega morfema se/si."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "90",
+        "original_izhodisce": "prevzeti si",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "že obdelano, treba samo dopolnit",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_priposestvovanje",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "priposestvovanje"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "priposestvovanje"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "92",
+        "original_izhodisce": "priposestvovanje",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_proč",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "proč"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "proč",
+        "SteMislili": "stran"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "94",
+        "original_izhodisce": "proč",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "iti proč",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_prostovoljno_dejanje",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "prostovoljno dejanje"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "prostovoljno dejanje",
+        "Iscete": "azione volontaria",
+        "SteMislili": "naklepno dejanje, namerno dejanje",
+        "Npr": "Po tožilčevem mnenju je šlo za naklepno dejanje.",
+        "Vslo": "Ita 'volontario' je večpomenski leksem. Slo leksem prostovoljen pomeni svoboden, ne pod prisilo, volonterski (npr. prostovoljno delo, ita 'volontariato')."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "96",
+        "original_izhodisce": "prostovoljno dejanje",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "x",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_refleks",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "refleks"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "refleks",
+        "Iscete": "riflesso",
+        "SteMislili": "odsev, odraz, izraz",
+        "Npr": "Gledam odsev luči na steklu. Njegovo stališče je odraz okolja, v katerem je odraščal.",
+        "Vslo": "Ita 'riflesso' je večpomenski leksem. \nSlo refleks = nehoten odgovor na dražljaj: nagonski, pogojni, samozaščitni refleks."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "103",
+        "original_izhodisce": "refleks",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_s_težavo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "s težavo"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "s težavo",
+        "SteMislili": "stežka"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "107",
+        "original_izhodisce": "s težavo",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_sile_javnega_reda",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "sile javnega reda"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "sile javnega reda",
+        "Iscete": "forze dell'ordine",
+        "SteMislili": "varnostni organi; policija",
+        "Npr": "Pri neredih je posegla policija.",
+        "Vslo": "Besedna zveza sile javnega reda kot sinonim za varnostnega organe/policijo je kalk iz ita 'forze dell'ordine (pubblico)' in se uporablja izključno v lokalnem okolju."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "111",
+        "original_izhodisce": "sile javnega reda",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "že obdelano, treba samo dopolnit",
+        "owner_flag": "x",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_sončno_leto",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "sončno leto"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "sončno leto",
+        "Iscete": "anno solare",
+        "SteMislili": "koledarsko leto",
+        "Npr": "Dohodki so bili ustvarjeni v tem koledarskem letu.",
+        "Vslo": "Beseda zveva sončno leto je kalk iz italijanščine 'anno solare'. Govorci in govorke, ki ne znajo italijansko, je ne razumejo."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "118",
+        "original_izhodisce": "sončno leto",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "že obdelano, treba samo dopolnit",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_spet",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "spet"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "spet",
+        "SteMislili": "ponovno",
+        "Npr": "Nekatere sanirane gramoznice so ponovno \"oživele\".",
+        "Vslo": "Spet (lahko) izraža nejevoljo, ker se je nekaj ponovno zgodilo."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "119",
+        "original_izhodisce": "spet",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_svoj",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "svoj"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "svoj",
+        "Iscete": "il suo",
+        "SteMislili": "moj",
+        "Npr": "Njegova knjiga je dosegla odmeven uspeh. / S svojo knjigo je dosegel velik uspeh. / Moja knjiga je najboljša.",
+        "Vslo": "Zaimek svoj v slovenščini označuje svojino osebka, moj pa je prvoosebni zaimek."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "123",
+        "original_izhodisce": "svoj",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_štiriročno",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "štiriročno"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "štiriročno",
+        "Iscete": "a quattro mani",
+        "SteMislili": "dva, dve / v dvoje / oba, obe",
+        "Npr": "Pravilnik je bil napisan štiriročno. -> Pravilnik sta napisali dve članici društva.",
+        "Vslo": "Leksem štiriročno se uporablja skoraj izključno na glasbenem področju (igranje klavirja štiriročno)."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "124",
+        "original_izhodisce": "štiriročno",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_tekoči_račun",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "tekoči račun"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "tekoči račun",
+        "Iscete": "conto corrente",
+        "SteMislili": "transakcijski račun (TRR)"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "125",
+        "original_izhodisce": "tekoči račun",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "ZKB",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_težka_droga",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "težka droga"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "težka droga",
+        "Iscete": "droga pesante",
+        "SteMislili": "trda droga, trdo mamilo",
+        "Npr": "Skrb vzbujajoče je število odvisnikov od trdih drog.\nRežim sponzorira kar 50 odstotkov svetovne produkcije najtrših mamil.",
+        "Vslo": "Besedni zvezi težka droga ali težko mamilo sta v slo redki. Pogosteje (pribl. 13,5 : 1) se uporabljata besedni zvezi trda droga / trdo mamilo."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "127",
+        "original_izhodisce": "težka droga",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_težko_mamilo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "težko mamilo"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "težko mamilo",
+        "Iscete": "droga pesante",
+        "SteMislili": "trda droga, trdo mamilo",
+        "Npr": "Skrb vzbujajoče je število odvisnikov od trdih drog.\nRežim sponzorira kar 50 odstotkov svetovne produkcije najtrših mamil",
+        "Vslo": "Besedni zvezi težka droga ali težko mamilo sta v slo redki. Pogosteje (pribl. 13,5 : 1) se uporabljata besedni zvezi trda droga / trdo mamilo."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "128",
+        "original_izhodisce": "težko mamilo",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_v_osebi",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "v osebi"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "v osebi",
+        "Iscete": "in/di persona",
+        "SteMislili": "osebno, v živo, iz oči v oči",
+        "Npr": "Največ bomo dosegli, če se oglasimo osebno."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "136",
+        "original_izhodisce": "v osebi",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "bi dala samo \"v osebi\"",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_v_prisotnosti",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "v prisotnosti"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "v prisotnosti",
+        "Iscete": "in presenza",
+        "SteMislili": "v živo",
+        "Npr": "Tokrat se bomo po dolgem času sestali v živo.",
+        "Vslo": "V slo se besedna zveva v prisotnosti uporablja v primerih kot \"mladoletni se lahko tekmovanja udeležijo zgolj v prisotnosti (= ob prisotnosti, navzočnosti) staršev\"."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "137",
+        "original_izhodisce": "v prisotnosti",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "bi dala samo \"v prisotnosti\"",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_večerni_izhod",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "večerni izhod"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "večerni izhod",
+        "Iscete": "uscita serale",
+        "SteMislili": "iti kam (zvečer): na sprehod, koncert, predstavo, v kino"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "140",
+        "original_izhodisce": "večerni izhod",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_ven_iz_glave",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "ven iz glave"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "ven iz glave",
+        "Iscete": "fuori di testa",
+        "SteMislili": "biti čudaški, nor; popeniti, ponoreti",
+        "Vslo": "Besedna zveza ven iz glave je kalk iz italijanščine ('fuori di testa') in se uporablja izključno v lokalnem okolju; govorcem, ki ne znajo italijansko, pomen te besedne zveze ni jasen"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "141",
+        "original_izhodisce": "ven iz glave",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "že obdelano, treba samo dopolnit",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_vzgojno_leto",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "vzgojno leto"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "vzgojno leto",
+        "Iscete": "anno scholastico",
+        "SteMislili": "šolsko leto",
+        "Npr": "Za konec šolskega leta pripravljajo zaključni nastop, z delom pa bodo nadaljevali septembra.",
+        "Vslo": "/"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "143",
+        "original_izhodisce": "vzgojno leto",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_z_upanjem",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "z upanjem"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "z upanjem",
+        "Iscete": "con la speranza",
+        "SteMislili": "v upanju",
+        "Npr": "V upanju na ugodno rešitev pošiljamo prijazen pozdrav.",
+        "Vslo": "Dolge povedi, predvsem v dopisih, v slovenskem kulturnem prostoru niso pogoste. Svetujemo: Upamo na ugodno rešitev. Prijazen pozdrav."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "144",
+        "original_izhodisce": "z upanjem",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_z_zagotovostjo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "z zagotovostjo"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "z zagotovostjo",
+        "Iscete": "con certezza",
+        "SteMislili": "z gotovostjo",
+        "Npr": "Tega ne more nihče napovedati z gotovostjo.",
+        "Vslo": "/"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "145",
+        "original_izhodisce": "z zagotovostjo",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_zaprositi",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "zaprositi"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "zaprositi",
+        "SteMislili": "prositi"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "148",
+        "original_izhodisce": "zaprositi",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_zapuščanje_šole",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "zapuščanje šole"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "zapuščanje šole",
+        "Iscete": "abbandono scolastico",
+        "SteMislili": "osip, izpis",
+        "Npr": "Osip je ena največjih slabosti našega šolskega sistema.",
+        "Vslo": "Zapuščanje šole ni termin, temveč besedna zveza, ki označuje odhajanje iz šolskega poslopja (V primeru požara čim prej zapustite poslopje.)."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "149",
+        "original_izhodisce": "zapuščanje šole",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "že obdelano, treba samo dopolnit",
+        "owner_flag": "x",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_zdole_zdol",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "zdole",
+          "zdol"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "zdole, zdol",
+        "SteMislili": "spodaj",
+        "Vslo": "narečno"
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "151",
+        "original_izhodisce": "zdole, zdol",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "narečno",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_zelena_številka",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "zelena številka"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "zelena številka",
+        "Iscete": "numero verde",
+        "SteMislili": "brezplačna številka",
+        "Npr": "Za več informacij pokličite na brezplačno številko.",
+        "Vslo": "Zelena številka je kalk iz italijanščine. Govorci in govorke, ki ne znajo italijansko, njenega pomena ne razumejo."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "152",
+        "original_izhodisce": "zelena številka",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "",
+        "status": ""
+      }
+    },
+    {
+      "id": "paronym_zeleni_teden",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "lemma",
+        "lemmas": [
+          "zeleni teden"
+        ]
+      },
+      "priority": 100,
+      "payload": {
+        "Izhodisce": "zeleni teden",
+        "SteMislili": "šola v naravi",
+        "Npr": "Otroci se veselijo šole v naravi.",
+        "Vslo": "Zeleni teden je dvakratni kalk: nastal je na podlagi besedne zveze beli teden, ki je kalk italijanske besedne zveze 'settimana bianca'. Govorci in govorke, ki ne znajo italijansko, njenega pomena ne razumejo."
+      },
+      "_import": {
+        "source": "webpage_source_abecedno_uvozeni_missing_2026-06-15",
+        "source_sheet": "Abecedno",
+        "source_row": "153",
+        "original_izhodisce": "zeleni teden",
+        "trigger_strategy": "lemma; multiword exact-surface fallback is provided by current matcher",
+        "review_note": "preveriti, če Loris to že pozna, sicer gre noter",
+        "owner_flag": "",
+        "status": ""
+      }
+    }
+  ]
+}
