@@ -30851,6 +30851,4271 @@
         "Npr": "Otroci se veselijo šole v naravi.",
         "Vslo": "Zeleni teden je dvakratni kalk: nastal je na podlagi besedne zveze beli teden, ki je kalk italijanske besedne zveze 'settimana bianca'. Govorci in govorke, ki ne znajo italijansko, njenega pomena ne razumejo."
       }
+    },
+    {
+      "id": "paronym_davčna_prijava",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "davčne prijave",
+          "davčni prijavi",
+          "davčno prijavo",
+          "davčnih prijav",
+          "davčnima prijavama",
+          "davčnih prijavah",
+          "davčnim prijavam",
+          "davčnimi prijavami",
+          "davčna prijava"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "davčna prijava",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 4,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "paronym_didaktika_na_daljavo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "didaktike na daljavo",
+          "didaktiki na daljavo",
+          "didaktiko na daljavo",
+          "didaktik na daljavo",
+          "didaktikama na daljavo",
+          "didaktikah na daljavo",
+          "didaktikam na daljavo",
+          "didaktikami na daljavo",
+          "didaktika na daljavo"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "didaktika na daljavo",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 5,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "paronym_dopolnilna_blagajna",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "dopolnilne blagajne",
+          "dopolnilni blagajni",
+          "dopolnilno blagajno",
+          "dopolnilnih blagajn",
+          "dopolnilnima blagajnama",
+          "dopolnilnih blagajnah",
+          "dopolnilnim blagajnam",
+          "dopolnilnimi blagajnami",
+          "dopolnilna blagajna"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "dopolnilna blagajna",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 6,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "paronym_beli_teden",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "belega tedna",
+          "belemu tednu",
+          "belem tednu",
+          "belim tednom",
+          "bela tedna",
+          "belih tednov",
+          "belima tednoma",
+          "belih tednih",
+          "beli tedni",
+          "bele tedne",
+          "belimi tedni",
+          "beli teden"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "beli teden",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 7,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 12
+      }
+    },
+    {
+      "id": "paronym_brati_v_cc",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "berem v CC",
+          "bereš v CC",
+          "bere v CC",
+          "bereta v CC",
+          "beremo v CC",
+          "berete v CC",
+          "bral v CC",
+          "brala v CC",
+          "brali v CC",
+          "brale v CC",
+          "bralo v CC",
+          "brat v CC",
+          "beri v CC",
+          "berita v CC",
+          "berite v CC",
+          "brati v CC"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "brati v CC",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 9,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 16
+      }
+    },
+    {
+      "id": "paronym_grdo_vreme",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "grdega vremena",
+          "grdemu vremenu",
+          "grdem vremenu",
+          "grdim vremenom",
+          "grše vreme",
+          "gršega vremena",
+          "gršemu vremenu",
+          "gršem vremenu",
+          "gršim vremenom",
+          "najgrše vreme",
+          "najgršega vremena",
+          "najgršemu vremenu",
+          "najgršem vremenu",
+          "najgršim vremenom",
+          "grdo vreme"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "grdo vreme",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 10,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 15
+      }
+    },
+    {
+      "id": "paronym_imeti_silo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "imam silo",
+          "nimam sile",
+          "imaš silo",
+          "nimaš sile",
+          "ima silo",
+          "nima sile",
+          "imava silo",
+          "nimava sile",
+          "imata silo",
+          "imasta silo",
+          "nimata sile",
+          "nimasta  sile",
+          "imamo silo",
+          "nimamo sile",
+          "imate silo",
+          "nimate sile",
+          "imaste silo",
+          "imaste sile",
+          "imeti sile",
+          "nimaste  sile",
+          "imajo silo",
+          "nimajo sile",
+          "imel silo",
+          "imela silo",
+          "imeli silo",
+          "imele silo",
+          "imelo silo",
+          "imet silo",
+          "imejva silo",
+          "imejmo silo",
+          "imej silo",
+          "imejta silo",
+          "imejte silo",
+          "imeti silo"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "imeti silo",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 11,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 34
+      }
+    },
+    {
+      "id": "paronym_multimedijska_tabla",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "multimedijske table",
+          "multimedijski tabli",
+          "multimedijsko tablo",
+          "multimedijskih tabel",
+          "multimedijskima tablama",
+          "multimedijskih tablah",
+          "multimedijskim tablam",
+          "multimedijskimi tablami",
+          "multimedijska tabla"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "multimedijska tabla",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 12,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "paronym_natečajni_razred",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "natečajen razred",
+          "natečajnega razreda",
+          "natečajnemu razredu",
+          "natečajni razredne",
+          "natečajnem razredu",
+          "natečajnim razredom",
+          "natečajna razreda",
+          "natečajnih razredov",
+          "natečajnima razredoma",
+          "natečajnih razredih",
+          "natečajni razredi",
+          "natečajne razrede",
+          "natečajnimi razredi",
+          "natečajni razred"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "natečajni razred",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 13,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 14
+      }
+    },
+    {
+      "id": "paronym_neprekinjena_blagajna",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "neprekinjene blagajne",
+          "neprekinjeni blagajni",
+          "neprekinjeno blagajno",
+          "neprekinjenih blagajn",
+          "neprekinjenima blagajnama",
+          "neprekinjenih blagajnah",
+          "neprekinjenim blagajnam",
+          "neprekinjenimi blagajnami",
+          "neprekinjena blagajna"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "neprekinjena blagajna",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 14,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "paronym_obrniti_mail",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "obrnem mail",
+          "obrneš mail",
+          "obrne mail",
+          "obrneva mail",
+          "obrneta mail",
+          "obrnemo mail",
+          "obrnete mail",
+          "obrnejo mail",
+          "obrnil mail",
+          "obrnila mail",
+          "obrnili mail",
+          "obrnile mail",
+          "obrnilo mail",
+          "obrnit mail",
+          "obrniva mail",
+          "obrnimo mail",
+          "obrni mail",
+          "obrnita mail",
+          "obrnite mail",
+          "obrnem maila",
+          "obrneš maila",
+          "obrne maila",
+          "obrneva maila",
+          "obrneta maila",
+          "obrnemo maila",
+          "obrnete maila",
+          "obrnejo maila",
+          "obrnil maila",
+          "obrnila maila",
+          "obrnili maila",
+          "obrnile maila",
+          "obrnilo maila",
+          "obrnit maila",
+          "obrniva maila",
+          "obrnimo maila",
+          "obrni maila",
+          "obrnita maila",
+          "obrnite maila",
+          "obrnem maile",
+          "obrneš maile",
+          "obrne maile",
+          "obrneva maile",
+          "obrneta maile",
+          "obrnemo maile",
+          "obrnete maile",
+          "obrnejo maile",
+          "obrnil maile",
+          "obrnila maile",
+          "obrnili maile",
+          "obrnile maile",
+          "obrnilo maile",
+          "obrnit maile",
+          "obrniva maile",
+          "obrnimo maile",
+          "obrni maile",
+          "obrnita maile",
+          "obrnite maile",
+          "obrnem mailov",
+          "obrneš mailov",
+          "obrne mailov",
+          "obrneva mailov",
+          "obrneta mailov",
+          "obrnemo mailov",
+          "obrnete mailov",
+          "obrnejo mailov",
+          "obrnil mailov",
+          "obrnila mailov",
+          "obrnili mailov",
+          "obrnile mailov",
+          "obrnilo mailov",
+          "obrnit mailov",
+          "obrniva mailov",
+          "obrnimo mailov",
+          "obrni mailov",
+          "obrnita mailov",
+          "obrnite mailov",
+          "obrniti mail"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "obrniti mail",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 15,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 77
+      }
+    },
+    {
+      "id": "paronym_odvisni_delavci",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "odvisni delavec",
+          "odvisen delavec",
+          "odvisnega delavca",
+          "odvisnemu delavcu",
+          "odvisen delavca",
+          "odvisni delavca",
+          "odvisnem delavcu",
+          "odvisnim delavcem",
+          "odvisna delavca",
+          "odvisnih delavcev",
+          "odvisnima delavcema",
+          "odvisnih delavcih",
+          "odvisne delavce",
+          "odvisnimi delavci",
+          "odvisna delavka",
+          "odvisne delavke",
+          "odvisni delavki",
+          "odvisno delavko",
+          "odvisnih delavk",
+          "odvisnima delavkama",
+          "odvisnih delavkah",
+          "odvisnim delavkam",
+          "odvisnimi delavkami",
+          "odvisni delavci"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "odvisni delavci",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 16,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 24
+      }
+    },
+    {
+      "id": "paronym_ostati_slabo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "ostanem slabo",
+          "ostaneš slabo",
+          "ostane slabo",
+          "ostaneva slabo",
+          "ostaneta slabo",
+          "ostanemo slabo",
+          "ostanete slabo",
+          "ostanejo slabo",
+          "ostal slabo",
+          "ostala slabo",
+          "ostali slabo",
+          "ostale slabo",
+          "ostalo slabo",
+          "ostat slabo",
+          "ostaniva slabo",
+          "ostanimo slabo",
+          "ostani slabo",
+          "ostanita slabo",
+          "ostanite slabo",
+          "ostati slabo"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "ostati slabo",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 17,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 20
+      }
+    },
+    {
+      "id": "paronym_pravni_zastopnik",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "praven zastopnik",
+          "pravnega zastopnika",
+          "pravnemu zastopniku",
+          "pravnem zastopniku",
+          "pravnim zastopnikom",
+          "pravna zastopnika",
+          "pravnih zastopnikov",
+          "pravnima zastopnikoma",
+          "pravnih zastopnikih",
+          "pravni zastopniki",
+          "pravne zastopnike",
+          "pravnimi zastopniki",
+          "pravna zastopnica",
+          "pravne zastopnice",
+          "pravni zastopnici",
+          "pravno zastopnico",
+          "pravnih zastopnic",
+          "pravnima zastopnicama",
+          "pravnih zastopnicah",
+          "pravnim zastopnicam",
+          "pravnimi zastopnicami",
+          "pravni zastopnik"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "pravni zastopnik",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 18,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 22
+      }
+    },
+    {
+      "id": "paronym_prva_pomoč",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "prve pomoči",
+          "prvi pomoči",
+          "prvo pomoč",
+          "prvo pomočjo",
+          "prvih pomoči",
+          "prvima pomočema",
+          "prvih pomočeh",
+          "prvim pomočem",
+          "prvimi pomočmi",
+          "prva pomoč"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "prva pomoč",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 19,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 10
+      }
+    },
+    {
+      "id": "paronym_stati_slabo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "stojim slabo",
+          "stojiš slabo",
+          "stoji slabo",
+          "stojiva slabo",
+          "stojita slabo",
+          "stojimo slabo",
+          "stojite slabo",
+          "stojijo slabo",
+          "stoje slabo",
+          "stal slabo",
+          "stala slabo",
+          "stali slabo",
+          "stale slabo",
+          "stalo slabo",
+          "stat slabo",
+          "stojva slabo",
+          "stojmo slabo",
+          "stoj slabo",
+          "stojta slabo",
+          "stojte slabo",
+          "stati slabo"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "stati slabo",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 20,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 21
+      }
+    },
+    {
+      "id": "paronym_terminska_pogodba",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "terminske pogodbe",
+          "terminski pogodbi",
+          "terminsko pogodbo",
+          "terminskih pogodb",
+          "terminskima pogodbama",
+          "terminskih pogodbah",
+          "terminskim pogodbam",
+          "terminskimi pogodbami",
+          "terminska pogodba"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "terminska pogodba",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 21,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "paronym_vzeti_letalo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "vzamem letalo",
+          "vzameš letalo",
+          "vzame letalo",
+          "vzameva letalo",
+          "vzameta letalo",
+          "vzamemo letalo",
+          "vzamete letalo",
+          "vzamejo letalo",
+          "vzel letalo",
+          "vzela letalo",
+          "vzeli letalo",
+          "vzele letalo",
+          "vzelo letalo",
+          "vzet letalo",
+          "vzemiva letalo",
+          "vzamiva letalo",
+          "vzemimo letalo",
+          "vzamimo letalo",
+          "vzemi letalo",
+          "vzami letalo",
+          "vzemita letalo",
+          "vzamita letalo",
+          "vzemite letalo",
+          "vzamite letalo",
+          "vzamem letala",
+          "vzameš letala",
+          "vzame letala",
+          "vzameva letala",
+          "vzameta letala",
+          "vzamemo letala",
+          "vzamete letala",
+          "vzamejo letala",
+          "vzel letala",
+          "vzela letala",
+          "vzeli letala",
+          "vzele letala",
+          "vzelo letala",
+          "vzet letala",
+          "vzemiva letala",
+          "vzamiva letala",
+          "vzemimo letala",
+          "vzamimo letala",
+          "vzemi letala",
+          "vzami letala",
+          "vzemita letala",
+          "vzamita letala",
+          "vzemite letala",
+          "vzamite letala",
+          "vzamem letal",
+          "vzameš letal",
+          "vzame letal",
+          "vzameva letal",
+          "vzameta letal",
+          "vzamemo letal",
+          "vzamete letal",
+          "vzamejo letal",
+          "vzel letal",
+          "vzela letal",
+          "vzeli letal",
+          "vzele letal",
+          "vzelo letal",
+          "vzet letal",
+          "vzemiva letal",
+          "vzamiva letal",
+          "vzemimo letal",
+          "vzamimo letal",
+          "vzemi letal",
+          "vzami letal",
+          "vzemita letal",
+          "vzamita letal",
+          "vzemite letal",
+          "vzamite letal",
+          "vzeti letalo"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "vzeti letalo",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 22,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 73
+      }
+    },
+    {
+      "id": "paronym_izgubiti_avtobus",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "izgubim avtobus",
+          "izgubiš avtobus",
+          "izgubi avtobus",
+          "izgubiva avtobus",
+          "izgubita avtobus",
+          "izgubimo avtobus",
+          "izgubite avtobus",
+          "izgubijo avtobus",
+          "izgube avtobus",
+          "izgubil avtobus",
+          "izgubila avtobus",
+          "izgubili avtobus",
+          "izgubile avtobus",
+          "izgubilo avtobus",
+          "izgubit avtobus",
+          "izgubim avtobusa",
+          "izgubiš avtobusa",
+          "izgubi avtobusa",
+          "izgubiva avtobusa",
+          "izgubita avtobusa",
+          "izgubimo avtobusa",
+          "izgubite avtobusa",
+          "izgubijo avtobusa",
+          "izgube avtobusa",
+          "izgubil avtobusa",
+          "izgubila avtobusa",
+          "izgubili avtobusa",
+          "izgubile avtobusa",
+          "izgubilo avtobusa",
+          "izgubit avtobusa",
+          "izgubim avtobuse",
+          "izgubiš avtobuse",
+          "izgubi avtobuse",
+          "izgubiva avtobuse",
+          "izgubita avtobuse",
+          "izgubimo avtobuse",
+          "izgubite avtobuse",
+          "izgubijo avtobuse",
+          "izgube avtobuse",
+          "izgubil avtobuse",
+          "izgubila avtobuse",
+          "izgubili avtobuse",
+          "izgubile avtobuse",
+          "izgubilo avtobuse",
+          "izgubit avtobuse",
+          "izgubim avtobusov",
+          "izgubiš avtobusov",
+          "izgubi avtobusov",
+          "izgubiva avtobusov",
+          "izgubita avtobusov",
+          "izgubimo avtobusov",
+          "izgubite avtobusov",
+          "izgubijo avtobusov",
+          "izgube avtobusov",
+          "izgubil avtobusov",
+          "izgubila avtobusov",
+          "izgubili avtobusov",
+          "izgubile avtobusov",
+          "izgubilo avtobusov",
+          "izgubit avtobusov",
+          "izgubiti avtobus"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "izgubiti avtobus",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 23,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 61
+      }
+    },
+    {
+      "id": "paronym_izgubiti_letalo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "izgubim letalo",
+          "izgubiš letalo",
+          "izgubi letalo",
+          "izgubiva letalo",
+          "izgubita letalo",
+          "izgubimo letalo",
+          "izgubite letalo",
+          "izgubijo letalo",
+          "izgube letalo",
+          "izgubil letalo",
+          "izgubila letalo",
+          "izgubili letalo",
+          "izgubile letalo",
+          "izgubilo letalo",
+          "izgubit letalo",
+          "izgubim letala",
+          "izgubiš letala",
+          "izgubi letala",
+          "izgubiva letala",
+          "izgubita letala",
+          "izgubimo letala",
+          "izgubite letala",
+          "izgubijo letala",
+          "izgube letala",
+          "izgubil letala",
+          "izgubila letala",
+          "izgubili letala",
+          "izgubile letala",
+          "izgubilo letala",
+          "izgubit letala",
+          "izgubim letal",
+          "izgubiš letal",
+          "izgubi letal",
+          "izgubiva letal",
+          "izgubita letal",
+          "izgubimo letal",
+          "izgubite letal",
+          "izgubijo letal",
+          "izgube letal",
+          "izgubil letal",
+          "izgubila letal",
+          "izgubili letal",
+          "izgubile letal",
+          "izgubilo letal",
+          "izgubit letal",
+          "izgubiti letalo"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "izgubiti letalo",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 24,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 46
+      }
+    },
+    {
+      "id": "paronym_izgubiti_vlak",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "izgubim vlak",
+          "izgubiš vlak",
+          "izgubi vlak",
+          "izgubiva vlak",
+          "izgubita vlak",
+          "izgubimo vlak",
+          "izgubite vlak",
+          "izgubijo vlak",
+          "izgube vlak",
+          "izgubil vlak",
+          "izgubila vlak",
+          "izgubili vlak",
+          "izgubile vlak",
+          "izgubilo vlak",
+          "izgubit vlak",
+          "izgubim vlaka",
+          "izgubiš vlaka",
+          "izgubi vlaka",
+          "izgubiva vlaka",
+          "izgubita vlaka",
+          "izgubimo vlaka",
+          "izgubite vlaka",
+          "izgubijo vlaka",
+          "izgube vlaka",
+          "izgubil vlaka",
+          "izgubila vlaka",
+          "izgubili vlaka",
+          "izgubile vlaka",
+          "izgubilo vlaka",
+          "izgubit vlaka",
+          "izgubim vlakov",
+          "izgubiš vlakov",
+          "izgubi vlakov",
+          "izgubiva vlakov",
+          "izgubita vlakov",
+          "izgubimo vlakov",
+          "izgubite vlakov",
+          "izgubijo vlakov",
+          "izgube vlakov",
+          "izgubil vlakov",
+          "izgubila vlakov",
+          "izgubili vlakov",
+          "izgubile vlakov",
+          "izgubilo vlakov",
+          "izgubit vlakov",
+          "izgubim vlake",
+          "izgubiš vlake",
+          "izgubi vlake",
+          "izgubiva vlake",
+          "izgubita vlake",
+          "izgubimo vlake",
+          "izgubite vlake",
+          "izgubijo vlake",
+          "izgube vlake",
+          "izgubil vlake",
+          "izgubila vlake",
+          "izgubili vlake",
+          "izgubile vlake",
+          "izgubilo vlake",
+          "izgubit vlake",
+          "izgubiti vlak"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "izgubiti vlak",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 25,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 61
+      }
+    },
+    {
+      "id": "paronym_izgubiti_tramvaj",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "izgubim tramvaj",
+          "izgubiš tramvaj",
+          "izgubi tramvaj",
+          "izgubiva tramvaj",
+          "izgubita tramvaj",
+          "izgubimo tramvaj",
+          "izgubite tramvaj",
+          "izgubijo tramvaj",
+          "izgube tramvaj",
+          "izgubil tramvaj",
+          "izgubila tramvaj",
+          "izgubili tramvaj",
+          "izgubile tramvaj",
+          "izgubilo tramvaj",
+          "izgubit tramvaj",
+          "izgubim tramvaja",
+          "izgubiš tramvaja",
+          "izgubi tramvaja",
+          "izgubiva tramvaja",
+          "izgubita tramvaja",
+          "izgubimo tramvaja",
+          "izgubite tramvaja",
+          "izgubijo tramvaja",
+          "izgube tramvaja",
+          "izgubil tramvaja",
+          "izgubila tramvaja",
+          "izgubili tramvaja",
+          "izgubile tramvaja",
+          "izgubilo tramvaja",
+          "izgubit tramvaja",
+          "izgubim tramvaje",
+          "izgubiš tramvaje",
+          "izgubi tramvaje",
+          "izgubiva tramvaje",
+          "izgubita tramvaje",
+          "izgubimo tramvaje",
+          "izgubite tramvaje",
+          "izgubijo tramvaje",
+          "izgube tramvaje",
+          "izgubil tramvaje",
+          "izgubila tramvaje",
+          "izgubili tramvaje",
+          "izgubile tramvaje",
+          "izgubilo tramvaje",
+          "izgubit tramvaje",
+          "izgubim tramvajev",
+          "izgubiš tramvajev",
+          "izgubi tramvajev",
+          "izgubiva tramvajev",
+          "izgubita tramvajev",
+          "izgubimo tramvajev",
+          "izgubite tramvajev",
+          "izgubijo tramvajev",
+          "izgube tramvajev",
+          "izgubil tramvajev",
+          "izgubila tramvajev",
+          "izgubili tramvajev",
+          "izgubile tramvajev",
+          "izgubilo tramvajev",
+          "izgubit tramvajev",
+          "izgubiti tramvaj"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "izgubiti tramvaj",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 26,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 61
+      }
+    },
+    {
+      "id": "paronym_izgubiti_trajekt",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "izgubim trajekt",
+          "izgubiš trajekt",
+          "izgubi trajekt",
+          "izgubiva trajekt",
+          "izgubita trajekt",
+          "izgubimo trajekt",
+          "izgubite trajekt",
+          "izgubijo trajekt",
+          "izgube trajekt",
+          "izgubil trajekt",
+          "izgubila trajekt",
+          "izgubili trajekt",
+          "izgubile trajekt",
+          "izgubilo trajekt",
+          "izgubit trajekt",
+          "izgubim trajekta",
+          "izgubiš trajekta",
+          "izgubi trajekta",
+          "izgubiva trajekta",
+          "izgubita trajekta",
+          "izgubimo trajekta",
+          "izgubite trajekta",
+          "izgubijo trajekta",
+          "izgube trajekta",
+          "izgubil trajekta",
+          "izgubila trajekta",
+          "izgubili trajekta",
+          "izgubile trajekta",
+          "izgubilo trajekta",
+          "izgubit trajekta",
+          "izgubim trajekte",
+          "izgubiš trajekte",
+          "izgubi trajekte",
+          "izgubiva trajekte",
+          "izgubita trajekte",
+          "izgubimo trajekte",
+          "izgubite trajekte",
+          "izgubijo trajekte",
+          "izgube trajekte",
+          "izgubil trajekte",
+          "izgubila trajekte",
+          "izgubili trajekte",
+          "izgubile trajekte",
+          "izgubilo trajekte",
+          "izgubit trajekte",
+          "izgubim trajektov",
+          "izgubiš trajektov",
+          "izgubi trajektov",
+          "izgubiva trajektov",
+          "izgubita trajektov",
+          "izgubimo trajektov",
+          "izgubite trajektov",
+          "izgubijo trajektov",
+          "izgube trajektov",
+          "izgubil trajektov",
+          "izgubila trajektov",
+          "izgubili trajektov",
+          "izgubile trajektov",
+          "izgubilo trajektov",
+          "izgubit trajektov",
+          "izgubiti trajekt"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "izgubiti trajekt",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 27,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 61
+      }
+    },
+    {
+      "id": "paronym_zdaj_kot_zdaj",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "zdaj kot zdajoj",
+          "zdaj kot zdaj"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "zdaj kot zdaj",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 28,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 2
+      }
+    },
+    {
+      "id": "paronym_narediti_grdo_figuro",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "naredim grdo figuro",
+          "narediš grdo figuro",
+          "naredi grdo figuro",
+          "narediva grdo figuro",
+          "naredita grdo figuro",
+          "naredimo grdo figuro",
+          "naredite grdo figuro",
+          "naredijo grdo figuro",
+          "narede grdo figuro",
+          "naredil grdo figuro",
+          "naredila grdo figuro",
+          "naredili grdo figuro",
+          "naredile grdo figuro",
+          "naredilo grdo figuro",
+          "naredit grdo figuro",
+          "naredim grde figure",
+          "narediš grde figure",
+          "naredi grde figure",
+          "narediva grde figure",
+          "naredita grde figure",
+          "naredimo grde figure",
+          "naredite grde figure",
+          "naredijo grde figure",
+          "narede grde figure",
+          "naredil grde figure",
+          "naredila grde figure",
+          "naredili grde figure",
+          "naredile grde figure",
+          "naredilo grde figure",
+          "naredit grde figure",
+          "narediti grdo figuro"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "narediti grdo figuro",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 29,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 31
+      }
+    },
+    {
+      "id": "paronym_delati_grdo_figuro",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "delam grdo figuro",
+          "delaš grdo figuro",
+          "dela grdo figuro",
+          "delava grdo figuro",
+          "delata grdo figuro",
+          "delamo grdo figuro",
+          "delate grdo figuro",
+          "delajo grdo figuro",
+          "delal grdo figuro",
+          "delala grdo figuro",
+          "delali grdo figuro",
+          "delale grdo figuro",
+          "delalo grdo figuro",
+          "delat grdo figuro",
+          "delajva grdo figuro",
+          "delajmo grdo figuro",
+          "delaj grdo figuro",
+          "delajta grdo figuro",
+          "delajte grdo figuro",
+          "delam grde figure",
+          "delaš grde figure",
+          "dela grde figure",
+          "delava grde figure",
+          "delata grde figure",
+          "delamo grde figure",
+          "delate grde figure",
+          "delajo grde figure",
+          "delal grde figure",
+          "delala grde figure",
+          "delali grde figure",
+          "delale grde figure",
+          "delalo grde figure",
+          "delat grde figure",
+          "delajva grde figure",
+          "delajmo grde figure",
+          "delaj grde figure",
+          "delajta grde figure",
+          "delajte grde figure",
+          "delati grdo figuro"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "delati grdo figuro",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 30,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 39
+      }
+    },
+    {
+      "id": "paronym_grda_figura",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "grde figure",
+          "grdi figuri",
+          "grdo figuro",
+          "grša figura",
+          "grše figure",
+          "grši figuri",
+          "gršo figuro",
+          "najgrša figura",
+          "najgrše figure",
+          "najgrši figuri",
+          "najgršo figuro",
+          "grdih figur",
+          "grdima figurama",
+          "grdih figurah",
+          "grših figur",
+          "gršima figurama",
+          "grših figurah",
+          "najgrših figur",
+          "najgršima figurama",
+          "najgrših figurah",
+          "grdim figuram",
+          "grdimi figurami",
+          "gršim figuram",
+          "gršimi figurami",
+          "najgršim figuram",
+          "najgršimi figurami",
+          "grda figura"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "grda figura",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 31,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 27
+      }
+    },
+    {
+      "id": "paronym_imeti_glavo_na_ramenih",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "imam glavo na ramenih",
+          "nimam glave na ramenih",
+          "imaš glavo na ramenih",
+          "nimaš glave na ramenih",
+          "ima glavo na ramenih",
+          "nima glave na ramenih",
+          "imava glavo na ramenih",
+          "nimava glave na ramenih",
+          "imata glavo na ramenih",
+          "imasta glavo na ramenih",
+          "nimata glave na ramenih",
+          "nimasta  glave na ramenih",
+          "imasta glave na ramenih",
+          "imamo glavo na ramenih",
+          "nimamo glave na ramenih",
+          "imate glavo na ramenih",
+          "nimate glave na ramenih",
+          "imaste glavo na ramenih",
+          "nimaste  glave na ramenih",
+          "imajo glavo na ramenih",
+          "nimajo glave na ramenih",
+          "imel glavo na ramenih",
+          "imela glavo na ramenih",
+          "imeli glavo na ramenih",
+          "imele glavo na ramenih",
+          "imelo glavo na ramenih",
+          "imet glavo na ramenih",
+          "imejva glavo na ramenih",
+          "imejmo glavo na ramenih",
+          "imej glavo na ramenih",
+          "imejta glavo na ramenih",
+          "imejte glavo na ramenih",
+          "glavo na ramenih",
+          "glave na ramenih",
+          "imeti glavo na ramenih"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "imeti glavo na ramenih",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 32,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 35
+      }
+    },
+    {
+      "id": "paronym_lomiti_škatle",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "lomim škatle",
+          "lomiš škatle",
+          "lomi škatle",
+          "lomiva škatle",
+          "lomita škatle",
+          "lomimo škatle",
+          "lomite škatle",
+          "lomijo škatle",
+          "lomil škatle",
+          "lomila škatle",
+          "lomili škatle",
+          "lomile škatle",
+          "lomilo škatle",
+          "lomit škatle",
+          "lomista škatle",
+          "lomiste škatle",
+          "lomiti škatle"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "lomiti škatle",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 34,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 17
+      }
+    },
+    {
+      "id": "paronym_razbijati_škatle",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "razbijam škatle",
+          "razbijaš škatle",
+          "razbija škatle",
+          "razbijava škatle",
+          "razbijata škatle",
+          "razbijamo škatle",
+          "razbijate škatle",
+          "razbijajo škatle",
+          "razbijal škatle",
+          "razbijala škatle",
+          "razbijali škatle",
+          "razbijale škatle",
+          "razbijalo škatle",
+          "razbijaste",
+          "razbijasta",
+          "razbijat škatle",
+          "razbijajva škatle",
+          "razbijajmo škatle",
+          "razbijaj škatle",
+          "razbijajta škatle",
+          "razbijajte škatle",
+          "razbijasta škatle",
+          "razbijaste škatle",
+          "razbijati škatle"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "razbijati škatle",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 35,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 24
+      }
+    },
+    {
+      "id": "paronym_razbivati_škatle",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "razbivam škatle",
+          "razbivaš škatle",
+          "razbiva škatle",
+          "razbivava škatle",
+          "razbivata škatle",
+          "razbivamo škatle",
+          "razbivate škatle",
+          "razbivajo škatle",
+          "razbival škatle",
+          "razbivala škatle",
+          "razbivali škatle",
+          "razbivale škatle",
+          "razbivalo škatle",
+          "razbivat škatle",
+          "razbivajva škatle",
+          "razbivajmo škatle",
+          "razbivaj škatle",
+          "razbivajta škatle",
+          "razbivajte škatle",
+          "razbivasta škatle",
+          "razbivaste škatle",
+          "razbivati škatle"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "razbivati škatle",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 36,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 22
+      }
+    },
+    {
+      "id": "paronym_razsuvaste_škatle",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "razsuvam škatle",
+          "razsuvaš škatle",
+          "razsuva škatle",
+          "razsuvava škatle",
+          "razsuvata škatle",
+          "razsuvamo škatle",
+          "razsuvate škatle",
+          "razsuvajo škatle",
+          "razsuval škatle",
+          "razsuvala škatle",
+          "razsuvali škatle",
+          "razsuvale škatle",
+          "razsuvalo škatle",
+          "razsuvat škatle",
+          "razsuvati škatle",
+          "razsuvajva škatle",
+          "razsuvajmo škatle",
+          "razsuvaj škatle",
+          "razsuvajta škatle",
+          "razsuvajte škatle",
+          "razsuvasta škatle",
+          "razsuvaste škatle"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "razsuvaste škatle",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 37,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 22
+      }
+    },
+    {
+      "id": "paronym_vzeti_avtobus",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "vzamem avtobus",
+          "vzameš avtobus",
+          "vzame avtobus",
+          "vzameva avtobus",
+          "vzameta avtobus",
+          "vzamemo avtobus",
+          "vzamete avtobus",
+          "vzamejo avtobus",
+          "vzel avtobus",
+          "vzela avtobus",
+          "vzeli avtobus",
+          "vzele avtobus",
+          "vzelo avtobus",
+          "vzet avtobus",
+          "vzemiva avtobus",
+          "vzamiva avtobus",
+          "vzemimo avtobus",
+          "vzamimo avtobus",
+          "vzemi avtobus",
+          "vzami avtobus",
+          "vzemita avtobus",
+          "vzamita avtobus",
+          "vzemite avtobus",
+          "vzamite avtobus",
+          "vzamem avtobusa",
+          "vzameš avtobusa",
+          "vzame avtobusa",
+          "vzameva avtobusa",
+          "vzameta avtobusa",
+          "vzamemo avtobusa",
+          "vzamete avtobusa",
+          "vzamejo avtobusa",
+          "vzel avtobusa",
+          "vzela avtobusa",
+          "vzeli avtobusa",
+          "vzele avtobusa",
+          "vzelo avtobusa",
+          "vzet avtobusa",
+          "vzemiva avtobusa",
+          "vzamiva avtobusa",
+          "vzemimo avtobusa",
+          "vzamimo avtobusa",
+          "vzemi avtobusa",
+          "vzami avtobusa",
+          "vzemita avtobusa",
+          "vzamita avtobusa",
+          "vzemite avtobusa",
+          "vzamite avtobusa",
+          "vzamem avtobuse",
+          "vzameš avtobuse",
+          "vzame avtobuse",
+          "vzameva avtobuse",
+          "vzameta avtobuse",
+          "vzamemo avtobuse",
+          "vzamete avtobuse",
+          "vzamejo avtobuse",
+          "vzel avtobuse",
+          "vzela avtobuse",
+          "vzeli avtobuse",
+          "vzele avtobuse",
+          "vzelo avtobuse",
+          "vzet avtobuse",
+          "vzemiva avtobuse",
+          "vzamiva avtobuse",
+          "vzemimo avtobuse",
+          "vzamimo avtobuse",
+          "vzemi avtobuse",
+          "vzami avtobuse",
+          "vzemita avtobuse",
+          "vzeti avtobus"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "vzeti avtobus",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 39,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 70
+      }
+    },
+    {
+      "id": "paronym_vzeti_taksi",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "vzamem taksi",
+          "vzameš taksi",
+          "vzame taksi",
+          "vzameva taksi",
+          "vzameta taksi",
+          "vzamemo taksi",
+          "vzamete taksi",
+          "vzamejo taksi",
+          "vzel taksi",
+          "vzela taksi",
+          "vzeli taksi",
+          "vzele taksi",
+          "vzelo taksi",
+          "vzet taksi",
+          "vzemiva taksi",
+          "vzamiva taksi",
+          "vzemimo taksi",
+          "vzamimo taksi",
+          "vzemi taksi",
+          "vzami taksi",
+          "vzemita taksi",
+          "vzamita taksi",
+          "vzemite taksi",
+          "vzamite taksi",
+          "vzamem taksija",
+          "vzameš taksija",
+          "vzame taksija",
+          "vzameva taksija",
+          "vzameta taksija",
+          "vzamemo taksija",
+          "vzamete taksija",
+          "vzamejo taksija",
+          "vzel taksija",
+          "vzela taksija",
+          "vzeli taksija",
+          "vzele taksija",
+          "vzelo taksija",
+          "vzet taksija",
+          "vzemiva taksija",
+          "vzamiva taksija",
+          "vzemimo taksija",
+          "vzamimo taksija",
+          "vzemi taksija",
+          "vzami taksija",
+          "vzemita taksija",
+          "vzamita taksija",
+          "vzemite taksija",
+          "vzamite taksija",
+          "vzamem taksije",
+          "vzameš taksije",
+          "vzame taksije",
+          "vzameva taksije",
+          "vzameta taksije",
+          "vzamemo taksije",
+          "vzamete taksije",
+          "vzamejo taksije",
+          "vzel taksije",
+          "vzela taksije",
+          "vzeli taksije",
+          "vzele taksije",
+          "vzelo taksije",
+          "vzet taksije",
+          "vzemiva taksije",
+          "vzamiva taksije",
+          "vzemimo taksije",
+          "vzamimo taksije",
+          "vzemi taksije",
+          "vzami taksije",
+          "vzemita taksije",
+          "vzamita taksije",
+          "vzemite taksije",
+          "vzamite taksije",
+          "vzeti taksi"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "vzeti taksi",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 40,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 73
+      }
+    },
+    {
+      "id": "paronym_vzeti_vlak",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "vzamem vlak",
+          "vzameš vlak",
+          "vzame vlak",
+          "vzameva vlak",
+          "vzameta vlak",
+          "vzamemo vlak",
+          "vzamete vlak",
+          "vzamejo vlak",
+          "vzel vlak",
+          "vzela vlak",
+          "vzeli vlak",
+          "vzele vlak",
+          "vzelo vlak",
+          "vzet vlak",
+          "vzemiva vlak",
+          "vzamiva vlak",
+          "vzemimo vlak",
+          "vzamimo vlak",
+          "vzemi vlak",
+          "vzami vlak",
+          "vzemita vlak",
+          "vzamita vlak",
+          "vzemite vlak",
+          "vzamite vlak",
+          "vzamem vlaka",
+          "vzameš vlaka",
+          "vzame vlaka",
+          "vzameva vlaka",
+          "vzameta vlaka",
+          "vzamemo vlaka",
+          "vzamete vlaka",
+          "vzamejo vlaka",
+          "vzel vlaka",
+          "vzela vlaka",
+          "vzeli vlaka",
+          "vzele vlaka",
+          "vzelo vlaka",
+          "vzet vlaka",
+          "vzemiva vlaka",
+          "vzamiva vlaka",
+          "vzemimo vlaka",
+          "vzamimo vlaka",
+          "vzemi vlaka",
+          "vzami vlaka",
+          "vzemita vlaka",
+          "vzamita vlaka",
+          "vzemite vlaka",
+          "vzamite vlaka",
+          "vzamem vlakov",
+          "vzameš vlakov",
+          "vzame vlakov",
+          "vzameva vlakov",
+          "vzameta vlakov",
+          "vzamemo vlakov",
+          "vzamete vlakov",
+          "vzamejo vlakov",
+          "vzel vlakov",
+          "vzela vlakov",
+          "vzeli vlakov",
+          "vzele vlakov",
+          "vzelo vlakov",
+          "vzet vlakov",
+          "vzemiva vlakov",
+          "vzamiva vlakov",
+          "vzemimo vlakov",
+          "vzamimo vlakov",
+          "vzemi vlakov",
+          "vzami vlakov",
+          "vzemita vlakov",
+          "vzamita vlakov",
+          "vzemite vlakov",
+          "vzamite vlakov",
+          "vzamem vlake",
+          "vzameš vlake",
+          "vzame vlake",
+          "vzeti vlak"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "vzeti vlak",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 41,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 76
+      }
+    },
+    {
+      "id": "paronym_vzeti_tramvaj",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "vzamem tramvaj",
+          "vzameš tramvaj",
+          "vzame tramvaj",
+          "vzameva tramvaj",
+          "vzameta tramvaj",
+          "vzamemo tramvaj",
+          "vzamete tramvaj",
+          "vzamejo tramvaj",
+          "vzel tramvaj",
+          "vzela tramvaj",
+          "vzeli tramvaj",
+          "vzele tramvaj",
+          "vzelo tramvaj",
+          "vzet tramvaj",
+          "vzemiva tramvaj",
+          "vzamiva tramvaj",
+          "vzemimo tramvaj",
+          "vzamimo tramvaj",
+          "vzemi tramvaj",
+          "vzami tramvaj",
+          "vzemita tramvaj",
+          "vzamita tramvaj",
+          "vzemite tramvaj",
+          "vzamite tramvaj",
+          "vzamem tramvaja",
+          "vzameš tramvaja",
+          "vzame tramvaja",
+          "vzameva tramvaja",
+          "vzameta tramvaja",
+          "vzamemo tramvaja",
+          "vzamete tramvaja",
+          "vzamejo tramvaja",
+          "vzel tramvaja",
+          "vzela tramvaja",
+          "vzeli tramvaja",
+          "vzele tramvaja",
+          "vzelo tramvaja",
+          "vzet tramvaja",
+          "vzemiva tramvaja",
+          "vzamiva tramvaja",
+          "vzemimo tramvaja",
+          "vzamimo tramvaja",
+          "vzemi tramvaja",
+          "vzami tramvaja",
+          "vzemita tramvaja",
+          "vzamita tramvaja",
+          "vzemite tramvaja",
+          "vzamite tramvaja",
+          "vzamem tramvaje",
+          "vzameš tramvaje",
+          "vzame tramvaje",
+          "vzameva tramvaje",
+          "vzameta tramvaje",
+          "vzamemo tramvaje",
+          "vzamete tramvaje",
+          "vzamejo tramvaje",
+          "vzel tramvaje",
+          "vzela tramvaje",
+          "vzeli tramvaje",
+          "vzele tramvaje",
+          "vzelo tramvaje",
+          "vzet tramvaje",
+          "vzemiva tramvaje",
+          "vzamiva tramvaje",
+          "vzemimo tramvaje",
+          "vzamimo tramvaje",
+          "vzemi tramvaje",
+          "vzami tramvaje",
+          "vzeti tramvaj"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "vzeti tramvaj",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 42,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 69
+      }
+    },
+    {
+      "id": "paronym_vzeti_trajekt",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "vzamem trajekt",
+          "vzameš trajekt",
+          "vzame trajekt",
+          "vzameva trajekt",
+          "vzameta trajekt",
+          "vzamemo trajekt",
+          "vzamete trajekt",
+          "vzamejo trajekt",
+          "vzel trajekt",
+          "vzela trajekt",
+          "vzeli trajekt",
+          "vzele trajekt",
+          "vzelo trajekt",
+          "vzet trajekt",
+          "vzemiva trajekt",
+          "vzamiva trajekt",
+          "vzemimo trajekt",
+          "vzamimo trajekt",
+          "vzemi trajekt",
+          "vzami trajekt",
+          "vzemita trajekt",
+          "vzamita trajekt",
+          "vzemite trajekt",
+          "vzamite trajekt",
+          "vzamem trajekta",
+          "vzameš trajekta",
+          "vzame trajekta",
+          "vzameva trajekta",
+          "vzameta trajekta",
+          "vzamemo trajekta",
+          "vzamete trajekta",
+          "vzamejo trajekta",
+          "vzel trajekta",
+          "vzela trajekta",
+          "vzeli trajekta",
+          "vzele trajekta",
+          "vzelo trajekta",
+          "vzet trajekta",
+          "vzemiva trajekta",
+          "vzamiva trajekta",
+          "vzemimo trajekta",
+          "vzamimo trajekta",
+          "vzemi trajekta",
+          "vzami trajekta",
+          "vzemita trajekta",
+          "vzamita trajekta",
+          "vzemite trajekta",
+          "vzamite trajekta",
+          "vzamem trajekte",
+          "vzameš trajekte",
+          "vzame trajekte",
+          "vzameva trajekte",
+          "vzameta trajekte",
+          "vzamemo trajekte",
+          "vzamete trajekte",
+          "vzamejo trajekte",
+          "vzel trajekte",
+          "vzela trajekte",
+          "vzeli trajekte",
+          "vzele trajekte",
+          "vzelo trajekte",
+          "vzet trajekte",
+          "vzemiva trajekte",
+          "vzamiva trajekte",
+          "vzemimo trajekte",
+          "vzamimo trajekte",
+          "vzemi trajekte",
+          "vzami trajekte",
+          "vzeti trajekt"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "vzeti trajekt",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 43,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 69
+      }
+    },
+    {
+      "id": "paronym_javno_delo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "javnemu delu",
+          "javnem delu",
+          "javnim delu",
+          "javnim delom",
+          "javnim del",
+          "javnih del",
+          "javno delo"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "javno delo",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 71,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 7
+      }
+    },
+    {
+      "id": "paronym_položaj_do",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "položaja do",
+          "položaju do",
+          "položajem do",
+          "položajev do",
+          "položajema do",
+          "položajih do",
+          "položaji do",
+          "položaje do",
+          "položaj do"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "položaj do",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 79,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "paronym_super_avtonomen",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "super avtonomni",
+          "super avtonomnega",
+          "super avtonomnemu",
+          "super avtonomnem",
+          "super avtonomnim",
+          "super avtonomna",
+          "super avtonomnih",
+          "super avtonomnima",
+          "super avtonomne",
+          "super avtonomnimi",
+          "super avtonomno",
+          "super avtonomen"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "super avtonomen",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 88,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 12
+      }
+    },
+    {
+      "id": "paronym_črpati_iz_lestvice",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črpam iz lestvice",
+          "črpaš iz lestvice",
+          "črpa iz lestvice",
+          "črpava iz lestvice",
+          "črpata iz lestvice",
+          "črpamo iz lestvice",
+          "črpate iz lestvice",
+          "črpajo iz lestvice",
+          "črpal iz lestvice",
+          "črpala iz lestvice",
+          "črpali iz lestvice",
+          "črpale iz lestvice",
+          "črpalo iz lestvice",
+          "črpat iz lestvice",
+          "črpajva iz lestvice",
+          "črpajmo iz lestvice",
+          "črpaj iz lestvice",
+          "črpajta iz lestvice",
+          "črpajte iz lestvice",
+          "črpam iz lestvic",
+          "črpaš iz lestvic",
+          "črpa iz lestvic",
+          "črpava iz lestvic",
+          "črpata iz lestvic",
+          "črpamo iz lestvic",
+          "črpate iz lestvic",
+          "črpajo iz lestvic",
+          "črpal iz lestvic",
+          "črpala iz lestvic",
+          "črpali iz lestvic",
+          "črpale iz lestvic",
+          "črpalo iz lestvic",
+          "črpat iz lestvic",
+          "črpajva iz lestvic",
+          "črpajmo iz lestvic",
+          "črpaj iz lestvic",
+          "črpajta iz lestvic",
+          "črpajte iz lestvic",
+          "črpati iz lestvice"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črpati iz lestvice",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 105,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 39
+      }
+    },
+    {
+      "id": "paronym_črpati_z_lestvice",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črpam z lestvice",
+          "črpaš z lestvice",
+          "črpa z lestvice",
+          "črpava z lestvice",
+          "črpata z lestvice",
+          "črpamo z lestvice",
+          "črpate z lestvice",
+          "črpajo z lestvice",
+          "črpal z lestvice",
+          "črpala z lestvice",
+          "črpali z lestvice",
+          "črpale z lestvice",
+          "črpalo z lestvice",
+          "črpat z lestvice",
+          "črpajva z lestvice",
+          "črpajmo z lestvice",
+          "črpaj z lestvice",
+          "črpajta z lestvice",
+          "črpajte z lestvice",
+          "črpati z lestvic",
+          "črpam z lestvic",
+          "črpaš z lestvic",
+          "črpa z lestvic",
+          "črpava z lestvic",
+          "črpati z lestvice"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črpati z lestvice",
+        "Vir": "dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "dbz_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 106,
+        "source_tag": "dbz",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 25
+      }
+    },
+    {
+      "id": "nepravilni_benkotov",
+      "category": "nepravilni",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "Benkotov"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "Benkotov",
+        "Vir": "nepravilni_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "nepravilni_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 7,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "odsvetovani_obstajati",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "obstajam",
+          "obstajaš",
+          "obstaja",
+          "obstajava",
+          "obstajata",
+          "obstajamo",
+          "obstajate",
+          "obstajajo",
+          "obstajal",
+          "obstajala",
+          "obstajali",
+          "obstajale",
+          "obstajalo",
+          "obstajat",
+          "obstajajva",
+          "obstajajmo",
+          "obstajaj",
+          "obstajajta",
+          "obstajajte",
+          "obstajati"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "obstajati",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 121,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 20
+      }
+    },
+    {
+      "id": "odsvetovani_odnesti",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "odnesem",
+          "odneseš",
+          "odnese",
+          "odneseva",
+          "odneseta",
+          "odnesemo",
+          "odnesete",
+          "odnesejo",
+          "odnesel",
+          "odnesla",
+          "odnesli",
+          "odnesle",
+          "odneslo",
+          "odnest",
+          "odnesiva",
+          "odnesimo",
+          "odnesi",
+          "odnesita",
+          "odnesite",
+          "odnesti"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "odnesti",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 136,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 20
+      }
+    },
+    {
+      "id": "odsvetovani_okoristiti",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "okoristim",
+          "okoristiš",
+          "okoristi",
+          "okoristiva",
+          "okoristita",
+          "okoristimo",
+          "okoristite",
+          "okoristijo",
+          "okoristil",
+          "okoristila",
+          "okoristili",
+          "okoristile",
+          "okoristilo",
+          "okoristit",
+          "okoristiti"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "okoristiti",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 154,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 15
+      }
+    },
+    {
+      "id": "odsvetovani_okoriščati",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "okoriščam",
+          "okoriščaš",
+          "okorišča",
+          "okoriščava",
+          "okoriščata",
+          "okoriščamo",
+          "okoriščate",
+          "okoriščajo",
+          "okoriščal",
+          "okoriščala",
+          "okoriščali",
+          "okoriščale",
+          "okoriščalo",
+          "okoriščat",
+          "okoriščajva",
+          "okoriščajmo",
+          "okoriščaj",
+          "okoriščajta",
+          "okoriščajte",
+          "okoriščati"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "okoriščati",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 155,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 20
+      }
+    },
+    {
+      "id": "odsvetovani_prizanešeno",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "prizanešeno"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "prizanešeno",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 232,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "odsvetovani_proglas",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "proglasa",
+          "proglasu",
+          "proglasom",
+          "proglasov",
+          "proglasoma",
+          "proglasih",
+          "proglasi",
+          "proglase",
+          "proglas"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "proglas",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 233,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "odsvetovani_razmak",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "razmaka",
+          "razmaku",
+          "razmakom",
+          "razmakov",
+          "razmakoma",
+          "razmakih",
+          "razmaki",
+          "razmake",
+          "razmak"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "razmak",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 247,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "odsvetovani_sprovesti",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "sprovedem",
+          "sprovedeš",
+          "sprovede",
+          "sprovedeva",
+          "sprovedeta",
+          "sprovedemo",
+          "sprovedete",
+          "sprovedejo",
+          "sprovedel",
+          "sprovedla",
+          "sprovedli",
+          "sprovedle",
+          "sprovedlo",
+          "sprovest",
+          "sprovediva",
+          "sprovedimo",
+          "sprovedi",
+          "sprovedita",
+          "sprovedite",
+          "sprovesti"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "sprovesti",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 269,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 20
+      }
+    },
+    {
+      "id": "odsvetovani_učenec",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "učenca",
+          "učencu",
+          "učencem",
+          "učencev",
+          "učencema",
+          "učencih",
+          "učenci",
+          "učence",
+          "učenec"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "učenec",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 285,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "odsvetovani_zemlja",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "zemlje",
+          "zemlji",
+          "zemljo",
+          "zemelj",
+          "zemljama",
+          "zemljah",
+          "zemljam",
+          "zemljami",
+          "zemlja"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "zemlja",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 329,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "odsvetovani_zmrzniti",
+      "category": "odsvetovani",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "zmrznem",
+          "zmrzneš",
+          "zmrzne",
+          "zmrzneva",
+          "zmrzneta",
+          "zmrznemo",
+          "zmrznete",
+          "zmrznejo",
+          "zmrznil",
+          "zmrznila",
+          "zmrznili",
+          "zmrznile",
+          "zmrznilo",
+          "zmrznit",
+          "zmrzniva",
+          "zmrznimo",
+          "zmrzni",
+          "zmrznita",
+          "zmrznite",
+          "zmrzniti"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "zmrzniti",
+        "Vir": "odsvetovano_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "odsvetovano_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 330,
+        "source_tag": "",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 20
+      }
+    },
+    {
+      "id": "paronym_koncept",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "koncepta",
+          "konceptu",
+          "konceptom",
+          "konceptov",
+          "konceptoma",
+          "konceptih",
+          "koncepti",
+          "koncepte",
+          "koncept"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "koncept",
+        "Vir": "paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "paronimi_mark.js",
+        "source_kind": "regex_group",
+        "source_line_no": 152,
+        "source_tag": "paronimi",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 9
+      }
+    },
+    {
+      "id": "paronym_čelne_pisarne",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "čelne pisarne"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "čelne pisarne",
+        "Vir": "s_dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_dbz_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 78,
+        "source_tag": "dbz_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_čelni_pisarni",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "čelni pisarni"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "čelni pisarni",
+        "Vir": "s_dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_dbz_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 79,
+        "source_tag": "dbz_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_čelno_pisarno",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "čelno pisarno"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "čelno pisarno",
+        "Vir": "s_dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_dbz_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 80,
+        "source_tag": "dbz_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_čelnih_pisarn",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "čelnih pisarn"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "čelnih pisarn",
+        "Vir": "s_dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_dbz_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 81,
+        "source_tag": "dbz_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_čelnima_pisarnama",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "čelnima pisarnama"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "čelnima pisarnama",
+        "Vir": "s_dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_dbz_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 82,
+        "source_tag": "dbz_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_čelnim_pisarnah",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "čelnim pisarnah"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "čelnim pisarnah",
+        "Vir": "s_dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_dbz_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 83,
+        "source_tag": "dbz_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_čelnim_pisarnam",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "čelnim pisarnam"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "čelnim pisarnam",
+        "Vir": "s_dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_dbz_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 84,
+        "source_tag": "dbz_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_čelnimi_pisarnami",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "čelnimi pisarnami"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "čelnimi pisarnami",
+        "Vir": "s_dbz_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_dbz_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 85,
+        "source_tag": "dbz_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentka",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentka"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentka",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 3,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentke",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentke"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentke",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 4,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentki",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentki"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentki",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 5,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentko",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentko"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentko",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 6,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentk",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentk"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentk",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 7,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentkama",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentkama"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentkama",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 8,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentkah",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentkah"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentkah",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 9,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentkam",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentkam"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentkam",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 10,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentkami",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentkami"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentkami",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 11,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študenta",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študenta"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študenta",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 12,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentu",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentu"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentu",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 13,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentom",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentom"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentom",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 15,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentov",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentov"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentov",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 16,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentoma",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentoma"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentoma",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 17,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentih",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentih"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentih",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 18,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študenti",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študenti"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študenti",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 19,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študentje",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študentje"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študentje",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 20,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študente",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študente"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študente",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 21,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_študent",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "študent"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "študent",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 23,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatle",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatle"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatle",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 36,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatli",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatli"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatli",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 37,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlo"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlo",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 38,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatel",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatel"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatel",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 39,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlama",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlama"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlama",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 40,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlah",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlah"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlah",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 41,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlam",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlam"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlam",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 42,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlami",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlami"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlami",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 43,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlica",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlica"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlica",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 44,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlice",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlice"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlice",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 45,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlici",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlici"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlici",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 46,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlico",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlico"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlico",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 47,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlic",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlic"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlic",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 48,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlicama",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlicama"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlicama",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 49,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlicah",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlicah"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlicah",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 50,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlicam",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlicam"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlicam",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 51,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatlicami",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatlicami"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatlicami",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 52,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škatla",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škatla"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škatla",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 53,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škandal",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škandal"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škandal",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 54,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škandala",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škandala"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škandala",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 55,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škandale",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škandale"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škandale",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 56,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škandali",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škandali"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škandali",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 57,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škandalih",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škandalih"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škandalih",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 58,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škandalom",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škandalom"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škandalom",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 59,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škandaloma",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škandaloma"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škandaloma",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 60,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škandalov",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škandalov"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škandalov",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 61,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_škandalu",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "škandalu"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "škandalu",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 62,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_črtala",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črtala"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črtala",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 64,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_črtalu",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črtalu"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črtalu",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 65,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_črtalom",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črtalom"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črtalom",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 66,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_črtali",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črtali"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črtali",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 67,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_črtal",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črtal"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črtal",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 68,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_črtaloma",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črtaloma"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črtaloma",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 69,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_črtalih",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črtalih"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črtalih",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 70,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
+    },
+    {
+      "id": "paronym_črtalo",
+      "category": "paronym",
+      "lang": "sl",
+      "trigger": {
+        "type": "surface",
+        "forms": [
+          "črtalo"
+        ]
+      },
+      "priority": 90,
+      "payload": {
+        "Izhodisce": "črtalo",
+        "Vir": "s_paronimi_mark.js",
+        "Opomba": "Ročno preneseno iz starega legacy seznama/regexa.",
+        "source_file": "s_paronimi_mark.js",
+        "source_kind": "string_item",
+        "source_line_no": 71,
+        "source_tag": "paronimi_supplemental",
+        "source_layer": "legacy_manual_import",
+        "legacy_disconnect_group": "legacy_manual_rules",
+        "legacy_forms_count": 1
+      }
     }
   ]
 }
